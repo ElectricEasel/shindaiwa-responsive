@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Bold.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Bold.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-BoldItalic.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-BoldItalic.otf) format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Italic.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Italic.otf) format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Regular.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Semibold.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-Semibold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(/templates/angel/fonts/ACaslonPro/ACaslonPro-SemiboldItalic.ttf) format('truetype'), url(/templates/angel/fonts/ACaslonPro/ACaslonPro-SemiboldItalic.otf) format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}

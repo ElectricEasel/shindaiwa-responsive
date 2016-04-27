@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Tahoe Valley Campground",
+    "nameLink": "#",
+    "state": "South Lake Tahoe, CA",
+    "image": "/images/temp/one-camp-image1.png",
+    "iconHouse": "true",
+    "iconCamp": "true",
+    "iconTransport": "true",
+    "lat": 38.9135189,
+    "lng": -120.0043487
+  }
+]

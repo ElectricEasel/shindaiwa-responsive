@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Tahoe Valley Campground",
+    "nameLink": "#",
+    "state": "South Lake Tahoe, CA",
+    "image": "/images/temp/one-camp-image1.png",
+    "iconHouse": "true",
+    "iconCamp": "true",
+    "iconTransport": "true",
+    "lat": 38.9135189,
+    "lng": -120.0043487
+  },
+  {
+    "name": "Verde Valle",
+    "nameLink": "#",
+    "state": "Guadalajara, Mexiko",
+    "image": "/images/temp/one-camp-image2.png",
+    "iconHouse": "false",
+    "iconCamp": "true",
+    "iconTransport": "false",
+    "lat": 20.6527743,
+    "lng": -103.3912224
+  }
+]
