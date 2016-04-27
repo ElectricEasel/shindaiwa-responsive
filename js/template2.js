@@ -1,12 +1,13 @@
 
-(function($)
-{
-	$(document).ready(function()	{
-		var $body = $('body');
+$(document).ready(function(){
 
-		$('.styler').styler();
+	$('.styler').styler();
+
+	$('.compare_product_wrap').mCustomScrollbar({
+		axis: 'x',
+		scrollbarPosition: "outside"
 	});
 
 
 
-})(jQuery);
+});

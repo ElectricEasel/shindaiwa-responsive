@@ -69,7 +69,7 @@
 									<p class="contact__text"><b>Shindaiwa is proud of the durability built into every one of our products and we would be grateful to hear about the Shindaiwa product you own.</b> If you would like to submit a testimonial, please fill in the form below and be sure to include the type of equipment you are using.  We will only use your testimonial in a positive manner and will never sell your name, email or contact information. If we use your testimonial, you will only be identified by your first name, location and company. Your email address will remain confidential.</p>
 								</div>
 								<div class="contact__form-block">
-									<from>
+									<form>
 										<div class="contact__headline clearfix">
 											<h3 class="tit pull-left">testimonial</h3>
 											<div class="required-info pull-right"><span class="ico_required">*</span> indicates required</div>
@@ -155,7 +155,7 @@
 										<div class="btn-row text-center">
 											<input type="submit" class="btn btn-red" value="submit testimonial">
 										</div>
-									</from>
+									</form>
 								</div>
 							</div>
 						</div>

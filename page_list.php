@@ -89,78 +89,108 @@
 					</tr>
 					<tr>
 						<td>9</td>
-						<td><a href="privacy.php" target="_blank">privacy.php</a></td>
-						<td>Privacy</td>
-					</tr>
-					<tr>
-						<td>10</td>
 						<td><a href="day7.php" target="_blank">day7.php</a></td>
 						<td>LP 7 day</td>
 					</tr>
 					<tr>
-						<td>11</td>
+						<td>10</td>
 						<td><a href="news_a_events.php" target="_blank">news_a_events.php</a></td>
 						<td>About News events detail</td>
 					</tr>
 					<tr>
-						<td>12</td>
+						<td>11</td>
 						<td><a href="news_a_events_list.php" target="_blank">news_a_events_list.php</a></td>
 						<td>About News events detail</td>
 					</tr>
 					<tr>
-						<td>13</td>
+						<td>12</td>
 						<td><a href="press_releases.php" target="_blank">press_releases.php</a></td>
 						<td>Press releases</td>
 					</tr>
 					<tr>
-						<td>14</td>
+						<td>13</td>
 						<td><a href="testimonial_form.php" target="_blank">testimonial_form.php</a></td>
 						<td>About testimonial</td>
 					</tr>
 					<tr>
-						<td>15</td>
+						<td>14</td>
 						<td><a href="product_compare.php" target="_blank">product_compare.php</a></td>
 						<td>Product compare</td>
 					</tr>
 					<tr>
-						<td>16</td>
+						<td>15</td>
 						<td><a href="products.php" target="_blank">products.php</a></td>
 						<td>Products page</td>
 					</tr>
 					<tr>
-						<td>17</td>
+						<td>16</td>
 						<td><a href="search.php" target="_blank">search.php</a></td>
 						<td>Search page</td>
 					</tr>
 					<tr>
-						<td>18</td>
+						<td>17</td>
 						<td><a href="about_us.php" target="_blank">about_us.php</a></td>
 						<td>About us</td>
 					</tr>
 					<tr>
-						<td>19</td>
+						<td>18</td>
 						<td><a href="recall_info.php" target="_blank">recall_info.php</a></td>
 						<td>Recal info</td>
 					</tr>
 					<tr>
-						<td>20</td>
+						<td>19</td>
 						<td><a href="support_customer.php" target="_blank">support_customer.php</a></td>
 						<td>Support customer</td>
 					</tr>
 					<tr>
-						<td>21</td>
+						<td>20</td>
 						<td><a href="tech_support.php" target="_blank">tech_support.php</a></td>
 						<td>Tech support</td>
 					</tr>
 					<tr>
-						<td>22</td>
+						<td>21</td>
 						<td><a href="testimonial.php" target="_blank">testimonial.php</a></td>
 						<td>Testimonial page</td>
 					</tr>
 					<tr>
-						<td>23</td>
+						<td>22</td>
 						<td><a href="contact.php" target="_blank">contact.php</a></td>
 						<td>Contact page</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td><a href="products_catalog.php" target="_blank">products_catalog.php</a></td>
+						<td>Products catalog</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td><a href="search_doc.php" target="_blank">search_doc.php</a></td>
+						<td>Search doc</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td><a href="search_doc_result.php" target="_blank">search_doc_result.php</a></td>
+						<td>Search doc result</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td><a href="registration.php" target="_blank">registration.php</a></td>
+						<td>Registration</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td><a href="accessories_category.php" target="_blank">accessories_category.php</a></td>
+						<td>Accessories category</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td><a href="compare.php" target="_blank">compare.php</a></td>
+						<td>Compare</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td><a href="product_accessories.php" target="_blank">product_accessories.php</a></td>
+						<td>Product accessories</td>
 					</tr>
 				</table>
 			</main>

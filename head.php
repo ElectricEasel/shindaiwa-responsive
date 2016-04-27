@@ -22,7 +22,7 @@
 	<script src="/js/jquery.formstyler.min.js" type="text/javascript"></script>
 	<script src="/js/owl.carousel.min.js" type="text/javascript"></script>
 	<script src="/js/jquery.mCustomScrollbar.js" type="text/javascript"></script>
-	<script src="js/template.js?v=1457640115" type="text/javascript"></script>
+	<script src="js/template.js" type="text/javascript"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxuUk9OnVxHLgiTYQFn6nVRrCwUHDKqNY"  type="text/javascript"></script>
 
 

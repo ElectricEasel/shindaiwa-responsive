@@ -138,6 +138,9 @@ input[type=number] {
 .glyphicon() {
 	font-family: 'Glyphicons Halflings';
 }
+.table-row{
+	display:table-row;
+}
 
 // Button classes
 .btn {
@@ -279,7 +282,7 @@ body {
 .field{
 	width:100%;
 	height:49px;
-	padding:12px;
+	padding:12px 17px;
 	color:#8b8b8b;
 	font-size:17px;
 	border:1px solid #d8d8d8;
@@ -294,6 +297,10 @@ body {
 	background: linear-gradient(to bottom, #fbfbfb 1%,#f7f7f7 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#f7f7f7',GradientType=0 );
 
+	&.no_shadow{
+		border:1px solid #d8d8d8;
+		box-shadow:none;
+	}
 	&:focus{
 		color:@black;
 		border-color:darken(#d8d8d8, 5%);

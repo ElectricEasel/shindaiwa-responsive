@@ -24,7 +24,10 @@
 						<a href="">Home</a>
 					</li>
 					<li>
-						Tech Support
+						<a href="">Tech Support</a>
+					</li>
+					<li>
+						Technical Docs
 					</li>
 				</ul>
 			</div>
@@ -50,50 +53,55 @@
 									</ul>
 								</div>
 							</div>
-							<div class="contact tech-supp-bl col-md-9">
+							<div class="contact col-md-9 search-doc">
 								<h2 class="contact__title">
-									Shindaiwa Tech Support
+									Technical Docs
 								</h2>
-								<div class="supp-items">
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Technical Docs</a></h3>
-										<p>Welcome to Shindaiwa's "Support and Help" page. Here you will be able to review frequently asked questions, perform a parts search for Shindaiwa products, download various safety and operator manuals, access Shindaiwa's media library, log on to the dealer/distributor extranet, and watch product videos.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Dealer Locator</a></h3>
-										<p>Where can you buy Shindaiwa products near you? Locate your closest Shindaiwa dealer.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Product Support</a></h3>
-										<p>If you require assistance or have questions concerning the application, operation, or maintenance of your Shindaiwa product, please search our Answers or Ask A Question.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Parts Lookup</a></h3>
-										<p>Need a part? Locate a replacement part for your Shindaiwa products.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Technical Documents</a></h3>
-										<p>Various technical documents including operator and safety manuals are available for every Shindaiwa model, along with material safety data sheets and safety videos.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Customer Service</a></h3>
-										<p>Request a current Shindaiwa catalog to be sent to you.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Media Resource</a></h3>
-										<p>Looking for product images, company logos, videos, or graphic standards? Access the password-protected Shindaiwa Insider — our media resource.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Distributor / Dealer Website</a></h3>
-										<p>Access the password-protected distributor / dealer website to obtain the latest service bulletins, search for technical product documentation, or take an on-line training course.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Recall Information</a></h3>
-										<p>Voluntary recalls being conducted in cooperation with the U.S. Consumer Product Safety Commission.</p>
-									</div>
-									<div class="supp-item">
-										<h3 class="supp-item__tit"><a href="">Videos</a></h3>
-										<p>Want to know how to wind a trimmer head or to take a closer look inside the Hybrid 4 engine? Check out this section.</p>
+
+								<div class="search-doc__form-block">
+									<form>
+										<div class="contact__headline clearfix">
+											<h3 class="tit">document search</h3>
+										</div>
+										<div class="search-field-row">
+											<input type="search" class="field no_shadow" value="" placeholder="enter model number">
+										</div>
+										<div class="radio-group">
+											<h4 class="radio-group__tit">Language:</h4>
+											<div class="item-radio ">
+												<label class="radio_item">
+													<input type="radio" class="radio_inp" name="language">
+													<span class="radio_ico"></span>
+													<span class="txt">English</span>
+												</label>
+											</div>
+											<div class="item-radio ">
+												<label class="radio_item">
+													<input type="radio" class="radio_inp" name="language">
+													<span class="radio_ico"></span>
+													<span class="txt">Spanish</span>
+												</label>
+											</div>
+											<div class="item-radio ">
+												<label class="radio_item">
+													<input type="radio" class="radio_inp" name="language">
+													<span class="radio_ico"></span>
+													<span class="txt">All</span>
+												</label>
+											</div>
+										</div>
+										<div class="btn-row text-center">
+											<input type="submit" class="btn btn-red" value="document search">
+										</div>
+									</form>
+									<div class="other-search-info">
+										<h3 class="other-search-info__tit">Other Information</h3>
+										<ul class="list_info">
+											<li><a href="">Material Data Sheets</a></li>
+											<li><a href="">Contact Us For Literature</a></li>
+											<li><a href="">Recall Information</a></li>
+											<li><a href="">Parts Lookup</a></li>
+										</ul>
 									</div>
 								</div>
 							</div>

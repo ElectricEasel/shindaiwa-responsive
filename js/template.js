@@ -11,6 +11,13 @@
 	$(document).ready(function()	{
 		var $body = $('body');
 
+		$('.goods-category__title .icon-toggle').on('click', function() {
+			$(this).parent().stop(0,0).toggleClass('active');
+			$(this).parent().siblings('.goods-category__items').stop(0,0).slideToggle();
+			console.log('123');
+			return false;
+		});
+
 		function toggleMenuExpand() {
 			$('#backdrop1').toggleClass('collapsed');
 			$('#main-nav').toggleClass('collapsed');
@@ -167,6 +174,8 @@
 		});
 
 	});
+
+
 
 
 })(jQuery);
