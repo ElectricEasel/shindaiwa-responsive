@@ -192,6 +192,16 @@
 						<td><a href="product_accessories.php" target="_blank">product_accessories.php</a></td>
 						<td>Product accessories</td>
 					</tr>
+					<tr>
+						<td>30</td>
+						<td><a href="video_library.php" target="_blank">video_library.php</a></td>
+						<td>Video library</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td><a href="product_detailed.php" target="_blank">product_detailed.php</a></td>
+						<td>Product detaile</td>
+					</tr>
 				</table>
 			</main>
 		</div>

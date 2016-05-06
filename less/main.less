@@ -7,6 +7,7 @@
 @import "mCustomScroll";
 @import "owl.carousel.less";
 @import "datepicker";
+@import "modal.less";
 
 // basic elements begin ***************************************
 .vcenter {
@@ -1763,6 +1764,168 @@
 }
 
 // accessories category end **********
+
+// video-library begin ***************
+
+.video-library {
+    padding: 0;
+    &__left {
+        background: #dfdfdf;
+        padding: 10px 15px 26px;
+        margin: 0 0 2px;
+    }
+    &__left-col {
+        padding: 0;
+    }
+    &__main-name {
+        letter-spacing: -0.001em;
+        .hCondensed();
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .video-one {
+        border: 0;
+        margin: 0 0 13px;
+    }
+    &__right {
+        padding: 10px 0;
+    }
+    &__row {
+        margin: 0;
+    }
+    @media (min-width: @screen-sm-min) {
+        margin: 0 auto 23px;
+        padding: 0 15px;
+        &__left {
+            padding: 0 0 28px;
+        }
+        &__main-name {
+            padding: 0 0 0 22px;
+            font-size: 21px;
+            line-height: 31px;
+            max-width: 640px;
+        }
+        .video-one {
+            margin: 0 0 8px;
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        padding: 5px 15px;
+        &__row {
+            margin: 0 -15px;
+        }
+        &__right {
+            padding: 0 27px 12px 21px;
+            background: #e9e9e9;
+        }
+        .video-one .youtube_link img {
+            width: auto;
+            height: 518px;
+        }
+        .video-one {
+            margin: 0 0 14px;
+        }
+        &__left {
+            background: #e9e9e9;
+        }
+        &__left-col {
+            padding: 0 15px;
+        }
+
+        &__main-name {
+            font-size: 26px;
+        }
+    }
+}
+
+.video-list {
+    &__item {
+        padding: 12px 0 13px;
+        overflow: hidden;
+        border-top: 2px solid #f3f3f3;
+        &:first-child {
+            border: 0;
+        }
+    }
+    &__img {
+        float: left;
+        width: 39%;
+        img {
+            width: 100%;
+        }
+    }
+    &__name {
+        float: right;
+        width: 57%;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.001em;
+        .hCondensed();
+        font-weight: 500;
+        color: @black;
+        transition-duration: .3s;
+        position: relative;
+        top: -3px;
+        &:hover {
+            color: @red;
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        &__item {
+            padding: 17px 0 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+    }
+}
+
+.video-block {
+    padding: 0 15px;
+    .row {
+        margin: 0 -5px;
+    }
+    &__content {
+        background: #e9e9e9;
+        padding: 19px 19px 0;
+        margin: 0 0 80px;
+    }
+    &__item {
+        padding: 0 5px;
+    }
+    &__img {
+        margin: 0 0 6px;
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+    &__name {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.001em;
+        .hCondensed();
+        font-weight: 500;
+        color: @black;
+        transition-duration: .3s;
+        height: 60px;
+        overflow: hidden;
+        display: inline-block;
+        margin: 0 0 33px;
+        &:hover {
+            color: @red;
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        &__name {
+            margin: 0 0 15px;
+        }
+    }
+}
+
+// video-library end *****************
+
+
+
 
 @import "main2.less";
 

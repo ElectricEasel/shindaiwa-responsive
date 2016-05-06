@@ -1,0 +1,80 @@
+
+.modal_block{
+    position:relative;
+    margin: 0 auto;
+}
+.close_modal {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    z-index:1;
+    background:transparent url(/images/close_pp_ico.png) 0 0  no-repeat;
+    transition:background-color 200ms ease;
+
+    &:hover {
+        background-position: 0 -20px;
+    }
+}
+
+
+.modal_content {
+    max-width:1100px;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    padding: 22px 20px 20px;
+
+    .modal_content_inner {
+        position: relative;
+        //box-shadow: 0 10px 5px -6px rgba(0,0,0,0.2);
+        text-align: left;
+
+    }
+    iframe{
+        height:300px;
+    }
+    img{
+        max-width:100%;
+    }
+    p{
+        color:#000;
+        .hCondensed();
+        font-size:16px;
+        margin-bottom:20px;
+    }
+}
+
+@media (min-width: @screen-sm-min){
+
+    .modal .modal_block{
+        width: 680px;
+    }
+    .modal_content {
+        iframe{
+            height:400px;
+        }
+    }
+}
+@media (min-width: @screen-md-min){
+
+    .modal .modal_block{
+        width: 720px;
+    }
+    .modal_content {
+        iframe{
+            height:400px;
+        }
+    }
+}
+@media (min-width: @screen-lg-min){
+    .modal .modal_block{
+        width: 820px;
+    }
+    .modal_content {
+        iframe{
+            height:500px;
+        }
+    }
+}
