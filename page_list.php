@@ -202,6 +202,11 @@
 						<td><a href="product_detailed.php" target="_blank">product_detailed.php</a></td>
 						<td>Product detaile</td>
 					</tr>
+					<tr>
+						<td>32</td>
+						<td><a href="product_family.php" target="_blank">product_family.php</a></td>
+						<td>Product family</td>
+					</tr>
 				</table>
 			</main>
 		</div>

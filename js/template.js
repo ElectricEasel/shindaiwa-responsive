@@ -14,7 +14,11 @@
 		$('.goods-category__title .icon-toggle').on('click', function() {
 			$(this).parent().stop(0,0).toggleClass('active');
 			$(this).parent().siblings('.goods-category__items').stop(0,0).slideToggle();
-			console.log('123');
+			return false;
+		});
+
+		$('.about-prod__read-more').on('click', function() {
+			$(this).hide().siblings('.about-prod__text').addClass('active');
 			return false;
 		});
 
