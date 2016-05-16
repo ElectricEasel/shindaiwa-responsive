@@ -21,163 +21,140 @@
 		<div id="content-container">
 			<main id="content">
 
-				<div class="container-fluid small-banners">
-					<div class="container content-block col-md-offset-2 col-lg-offset-0 small-banners__wrapper">
-						<div class="row">
-							<div class="col-md-5 col-lg-4 col-sm-6">
-								<div class="small-banners__item">
-									<div class="small-banners__title text-uppercase">Shindaiwa’s Fleet Programs!</div>
-									<div class="small-banners__wrap-img">
-										<img src="/images/temp/small-banner-img1.png" alt="">
-									</div>
-									<div class="small-banners__text hidden-xs hidden-sm">
-										<p>
-											The best fleet program dedicated to landscapers with deep discounts starting at 16%!
-										</p>
-										<p>
-											The first fleet program dedicated to arborists!
-										</p>
-									</div>
-									<div class="small-banners__buttons text-center">
-										<div class="small-banners__wrap-btn">
-											<a href="#" class="btn btn-red">landscapers</a>
-										</div>
-										<div class="small-banners__wrap-btn">
-											<a href="#" class="btn btn-green">arborists</a>
-										</div>
-									</div>
+				<div class="container ">
+					<div class="small-banners owl-carousel">
+						<div class="item">
+							<div class="small-banners__item small-banners__item1">
+								<div class="small-banners__img">
+									<img src="/images/temp/small-banner-img1.png" title="" alt="">
 								</div>
-							</div>
-							<div class="col-md-5 col-lg-4 col-sm-6">
-								<div class="small-banners__item">
-									<div class="small-banners__title text-uppercase">Money-Back Guarantee!</div>
-									<div class="small-banners__wrap-img">
-										<img src="/images/temp/small-banner-img2.png" alt="">
+								<div class="small-banners__content">
+									<div class="small-banners__title text-uppercase">Buy from a trusted source!</div>
+									<div class="small-banners__desc">
+										Shindaiwa equipment is trusted for its power, durability, and comfort and it’s
+										only available at local servicing dealers.
 									</div>
-									<div class="small-banners__text hidden-xs hidden-sm">
-										<p>
-											<strong>7-Day Money Back Guarantee!</strong> This program includes all
-											engine-driven units and Multi-Tool Accessories only. Parts or accessories are
-											not included. Not in effect during periods of natural disasters.
-										</p>
-									</div>
-									<div class="small-banners__buttons text-center">
-										<div class="small-banners__wrap-btn">
-											<a href="#" class="btn btn-red">learn more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-5 col-lg-4 col-sm-6">
-								<div class="small-banners__item">
-									<div class="small-banners__title text-uppercase">Consumer Warranty!</div>
-									<div class="small-banners__wrap-img">
-										<img src="/images/temp/small-banner-img3.png" alt="">
-									</div>
-									<div class="small-banners__text hidden-xs hidden-sm">
-										<p>
-											<strong>Shindaiwa has added a 5-year Consumer Warranty</strong> effective on
-											all purchases after January 1, 2013. Coupled with our 2-year Commercial
-											Warranty, Shindaiwa offers two of the strongest warranties in the industry.
-										</p>
-									</div>
-									<div class="small-banners__buttons text-center">
-										<div class="small-banners__wrap-btn">
-											<a href="#" class="btn btn-red">learn more</a>
-										</div>
-									</div>
+									<a href="#" class="small-banners__link stn-link">trusted dealer stories ></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid youtube ">
-					<div class="container content-block clearfix">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="youtube__item">
-									<div class="video-one video-one__upload">
-										<a href="#" class="btn_play">
+						<div class="item">
+							<div class="small-banners__item small-banners__item1">
+								<div class="small-banners__img">
+									<img src="/images/temp/small-banner-img2.png" title="" alt="">
+								</div>
+								<div class="small-banners__content">
+									<div class="small-banners__desc">
+										Select dealers are holding 20% Off One Day Sales Events this spring! Check back
+										every month for deals near you.
+									</div>
+									<a href="#" class="small-banners__link stn-link">View sales events ></a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="small-banners__item small-banners__video small-banners__item1">
+								<div class="video-one video-one__upload">
+									<a href="#" class="btn_play">
 										<span class="table">
 											<span class="table-cell vcenter"><span class="icon"></span></span>
 										</span>
-										</a>
-										<div class="preloader">
-											<div class="table">
-												<div class="table-cell vcenter text-center">
-													<img src="/images/ring.svg" title="" alt="">
-												</div>
+									</a>
+									<div class="preloader">
+										<div class="table">
+											<div class="table-cell vcenter text-center">
+												<img src="/images/ring.svg" title="" alt="">
 											</div>
 										</div>
-										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4"></a>
-										<div class="video-wrap"></div>
-										<div class="youtube__name">Clearing Yard Debris with Shindaiwa</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="youtube__item ">
-									<div class="video-one video-one__upload">
-										<a href="#" class="btn_play">
-									<span class="table">
-										<span class="table-cell vcenter"><span class="icon"></span></span>
-									</span>
-										</a>
-										<div class="preloader">
-											<div class="table">
-												<div class="table-cell vcenter text-center">
-													<img src="/images/ring.svg" title="" alt="">
-												</div>
-											</div>
-										</div>
-										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=pNupuo5ss4k"></a>
-										<div class="video-wrap"></div>
-										<div class="youtube__name">Speed-Feed Head Demonstration</div>
-									</div>
+									<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4"></a>
+									<div class="video-wrap"></div>
+									<div class="youtube__name">The Shindaiwa Brand</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="main-about container-fluid">
-					<div class="row">
-						<div class="container content-block">
-							<div class="main-about__title text-uppercase">Performance. Durability. Quality.</div>
-							<div class="main-about__text">
-								<p>
-									<strong>
-										For over 50 years Shindaiwa has been a legendary industry leader in
-										manufacturing high-performance outdoor power equipment for professional
-										users around the world. Our long history features the development of iconic
-										equipment including the T27 and T270 Trimmers and, with a choice of engine
-										technologies combined with four new models introduced in early 2013,
-										Shindaiwa's presence will continue into the future.
-									</strong>
-								</p>
-								<p>
-									Shindaiwa commercial-use equipment includes grass trimmers, brushcutters, blowers,
-									hedge trimmers, and our innovative Speed-Feed® – the trimmer head that can be
-									loaded, without disassembly, in 30 seconds or less! Check out this video to see
-									it in action.
-								</p>
-								<p>
-									Shindaiwa manufactures premium, high quality products, and to support our
-									confidence in the product, we added a <span class="heavy">5-year consumer
-										warranty</span>, effective on all purchases after January 1, 2013 and, in
-									January 2010, we doubled our commercial warranty to a full two years. Shindaiwa
-									offers two of the strongest warranties in the industry!
-								</p>
-								<p>
-									Shindaiwa equipment is available in a choice of engine technologies – dependable
-									2-stroke and an all new 2/4 stroke engine technology. Shindaiwa’s 2-stroke
-									technology is lightweight and performs day in and day out.
-								</p>
+				<div class="container-fluid speed-block">
+					<div class="container">
+						<div class="speed-block__content">
+							<div class="speed-block__title text-uppercase">
+								Load Line in Seconds!
+							</div>
+							<div class="speed-block__desc">
+								The Speed-Feed® trimmer head is the fastest loading bump-to-advance style head on the
+								market. In fact, it can be reloaded without disassembly in 30 seconds or less -
+								there is no need to press in stiff tabs or unlock covers just to re-load line.
+							</div>
+							<div class="speed-block__logo text-center">
+								<img src="/images/temp/speed_feed_logo.png" title="" alt="">
+							</div>
+							<div class="speed-block__img text-center">
+								<img src="/images/temp/speed_feed_img.png" title="" alt="">
+							</div>
+							<div class="speed-block__btns">
+								<a href="#" class=" btn btn-red">Learn more</a>
+								<a href="#" class=" btn btn-red">watch video</a>
 							</div>
 						</div>
 					</div>
+				</div>
 
+				<div class="container-fluid about-shin">
+					<div class="container">
+						<div class="about-shin__content">
+							<div class="about-shin__title text-uppercase">
+								Shindaiwa’s Fleet Programs
+							</div>
+							<div class="about-shin__text">
+								<p>
+									Shindaiwa’s new Landscaper and Arborist Fleet Programs reward your commitment to
+									Shindaiwa quality with deep product discounts and “no-hassle” financing.
+								</p>
+								<p>
+									Our flexible programs allow you to start saving money with a low initial purchase.
+									With two tiers of discounts you will save more as you bundle your purchases.
+								</p>
+							</div>
+							<div class="about-shin__buttons">
+								<a href="#" class="btn btn-red">for landscapers</a>
+								<a href="#" class="btn btn-green">for arborists</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid shindaiwa text-center">
+					<div class="container">
+						<div class="shindaiwa__img">
+							<img src="/images/temp/waranty_img.png" title="" alt="">
+							<img src="/images/temp/waranty_7day.png" title="" alt="">
+						</div>
+						<div class="shindaiwa__title ">
+							Performance. Durability. Quality.
+						</div>
+						<div class="shindaiwa__text">
+							<p>
+								<strong>
+									Shindaiwa provides premium, high-quality products for the professional user and
+									discerning consumer who value legendary performance.
+								</strong>
+							</p>
+							<p>
+								To support our confidence in our products, we offer a 5-year consumer warranty and
+								2-year commercial warranty. We’re so positive you will be happy with your Shindaiwa
+								purchase, we guarantee you will love it. We offer a no-questions-asked, 7-day
+								money-back guarantee on all Shindaiwa products.
+							</p>
+						</div>
+						<div class="shindaiwa__button">
+							<a href="#" class="btn btn-red">our guarantee</a>
+						</div>
+						<div class="shindaiwa__instrumnets text-center">
+							<img src="/images/temp/shindaiwa_inst.png" title="" alt="">
+						</div>
+					</div>
 				</div>
 
 			</main>

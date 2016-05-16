@@ -17,6 +17,26 @@
 			return false;
 		});
 
+		// whats happening carousel init begin
+		$('.small-banners').owlCarousel({
+			margin:33,
+			nav:false,
+			dots: false,
+			responsive:{
+				0:{
+					items:1
+				},
+				768:{
+					items:2
+				},
+				1200:{
+					items:3
+				}
+			}
+		});
+
+		$('.red-select').styler();
+
 		$('.about-prod__read-more').on('click', function() {
 			$(this).hide().siblings('.about-prod__text').addClass('active');
 			return false;

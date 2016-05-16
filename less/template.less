@@ -190,7 +190,7 @@ input[type=number] {
 
 // Global Styles
 body {
-	overflow-x: hidden;
+	overflow: inherit;
 	font-size: 17px;
 	line-height: 27px;
 	font-weight: 400;
@@ -560,3 +560,43 @@ textarea.field{
 }
 
 // breadcrumb end  *******************
+
+//red select begin *******************
+
+.red-select {
+	.jq-selectbox__select {
+		background: #e31937;
+		box-shadow: inset 0 -6px 0 0 #b7071f;
+	}
+	&.opened {
+		.jq-selectbox__trigger-arrow:before {
+			transform: rotate(180deg);
+			border-top-color: @white;
+		}
+		.jq-selectbox__select {
+			background: #e31937;
+			box-shadow: inset 0 -6px 0 0 #b7071f;
+		}
+	}
+	&:hover .jq-selectbox__trigger-arrow:before {
+		border-top-color: @white;
+	}
+	&.jq-selectbox:hover .jq-selectbox__trigger-arrow:before {
+		border-top-color: @white;
+	}
+	.jq-selectbox__select-text {
+		border-radius: 4px;
+		display: inline-block;
+		text-transform: uppercase;
+		color: #fff;
+		.eurostile();
+		font-size: 17px;
+		font-weight: 700;
+	}
+	.jq-selectbox__trigger-arrow:before {
+		border-top-color: @white;
+		transition: transform .3s;
+	}
+}
+
+//red select end *********************

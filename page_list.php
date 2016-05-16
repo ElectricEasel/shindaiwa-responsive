@@ -207,6 +207,11 @@
 						<td><a href="product_family.php" target="_blank">product_family.php</a></td>
 						<td>Product family</td>
 					</tr>
+					<tr>
+						<td>33</td>
+						<td><a href="about_distributors.php" target="_blank">about_distributors.php</a></td>
+						<td>About distributors</td>
+					</tr>
 				</table>
 			</main>
 		</div>
