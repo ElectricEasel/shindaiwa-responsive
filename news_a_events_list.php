@@ -59,7 +59,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9">
-								<h2 class="contact__title">
+								<h2 class="contact__title news">
 									News & Events
 								</h2>
 								<p class="contact__prompt">

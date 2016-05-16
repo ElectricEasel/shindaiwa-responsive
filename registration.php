@@ -109,7 +109,7 @@
 													<input type="number" class="field" name="purchaseDate"  value="" placeholder="">
 												</div>
 												<div class="form-group col-sm-12">
-													<label >Purchase Location<span class="ico_required">*</span> <span class="txt"><a href="">Click Here</a> for Dealers</span></label>
+													<label >Purchase Location<span class="ico_required">*</span> <span class="txt dealers"><a href="">Click Here</a> for Dealers</span></label>
 													<input type="text" class="field" name="purchaseLocation"  value="" placeholder="">
 												</div>
 												<div class="form-group col-sm-12">
@@ -117,7 +117,7 @@
 													<input type="number" class="field" name="modelNumber"  value="" placeholder="">
 												</div>
 												<div class="form-group col-sm-12">
-													<label >Serial Number<span class="ico_required">*</span> <span class="txt">Having trouble remembering your serial number? <a href="">Click Here</a></span></label>
+													<label >Serial Number<span class="ico_required">*</span> <span class="txt serial">Having trouble remembering your serial number? <a href="">Click Here</a></span></label>
 													<input type="number" class="field" name="purchaseLocation"  value="" placeholder="">
 												</div>
 												<div class="form-group col-sm-12">

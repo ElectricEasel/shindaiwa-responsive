@@ -148,14 +148,14 @@
                                         <div>
                                             <h6>Outdoor Equipment Distributors</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 2721 Discovery Drive<br>
 
                                                 Raleigh, NC 27616
                                             </div>
                                             <div>Phone: 919-876-6937</div>
 
-                                            <div>Fax: 919-850-9163</div>
+                                            <div class="distributor-fax">Fax: 919-850-9163</div>
                                             <div>Web: <a href="http://www.oedinc.com">http://www.oedinc.com</a></div>
 
                                         </div>
@@ -165,14 +165,14 @@
                                         <div>
                                             <h6>Florida Outdoor Equipment</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 2691 Dardanelle Drive<br>
 
                                                 Orlando, FL 32808-3825
                                             </div>
                                             <div>Phone: 407-295-5010</div>
 
-                                            <div>Fax: 407-295-7960</div>
+                                            <div class="distributor-fax">Fax: 407-295-7960</div>
                                             <div>Web: <a href="http://www.floridaoutdoor.com">http://www.floridaoutdoor.com</a>
                                             </div>
 
@@ -183,14 +183,14 @@
                                         <div>
                                             <h6>Jerry Pate Turf &amp; Irrigation</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 301 Schubert Drive<br>
 
                                                 Pensacola, FL 32504
                                             </div>
                                             <div>Phone: 850-484-TURF (8873)</div>
 
-                                            <div>Fax: 850-484-8596</div>
+                                            <div class="distributor-fax">Fax: 850-484-8596</div>
                                             <div>Web: <a href="http://www.jerrypate.com">http://www.jerrypate.com</a>
                                             </div>
 
@@ -201,14 +201,14 @@
                                         <div>
                                             <h6>Texas Outdoor Power Equipment</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 111 Halmar Cove<br>
 
                                                 Georgetown, TX 78628
                                             </div>
                                             <div>Phone: 512-863-2998</div>
 
-                                            <div>Fax: 512-863-8050</div>
+                                            <div class="distributor-fax">Fax: 512-863-8050</div>
                                             <div>Web: <a
                                                     href="http://www.topequipment.net">http://www.topequipment.net</a>
                                             </div>
@@ -219,14 +219,14 @@
                                         <div>
                                             <h6>Rental Distributing</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 6111 Storey Road<br>
 
                                                 Humble, TX 77396
                                             </div>
                                             <div>Phone: 281-441-3166</div>
 
-                                            <div>Fax: 281-441-2610</div>
+                                            <div class="distributor-fax">Fax: 281-441-2610</div>
 
 
                                         </div>
@@ -237,14 +237,14 @@
                                     <div>
                                         <h6>Golden Eagle Distributing</h6>
 
-                                        <div>
+                                        <div class="distributor-address">
                                             1251 Tinker Road<br>
 
                                             Rocklin, CA 95765
                                         </div>
                                         <div>Phone: 916-645-6600</div>
 
-                                        <div>Fax: 916-645-6633</div>
+                                        <div class="distributor-fax">Fax: 916-645-6633</div>
                                         <div>Web: <a href="http://www.goldeneagledist.com">http://www.goldeneagledist.com</a>
                                         </div>
 
@@ -255,14 +255,14 @@
                                         <div>
                                             <h6>Midwest Equipment &amp; Supply</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 2145 Bergdolt Road<br>
 
                                                 Evansville, IN 47724-0627
                                             </div>
                                             <div>Phone: 812-425-6216</div>
 
-                                            <div>Fax: 812-425-6294</div>
+                                            <div class="distributor-fax">Fax: 812-425-6294</div>
                                             <div>Web: <a href="http://www.mweco.com">http://www.mweco.com</a></div>
 
                                         </div>
@@ -272,14 +272,14 @@
                                         <div>
                                             <h6>General Power Equipment</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 2625 International Street<br>
 
                                                 Columbus, OH 43228
                                             </div>
                                             <div>Phone: 614-529-5950</div>
                                             <div>Toll Free: 800-508-3246</div>
-                                            <div>Fax: 614-529-5955</div>
+                                            <div class="distributor-fax">Fax: 614-529-5955</div>
                                             <div>Web: <a
                                                     href="http://www.generalpower.com">http://www.generalpower.com</a>
                                             </div>
@@ -292,14 +292,14 @@
                                         <div>
                                             <h6>Lawn Equipment Parts Company</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 1475 River Road<br>
                                                 P.O. Box 466<br>
                                                 Marietta, PA 17547
                                             </div>
                                             <div>Phone: 717-426-5200</div>
 
-                                            <div>Fax: 717-426-5206</div>
+                                            <div class="distributor-fax">Fax: 717-426-5206</div>
                                             <div>Web: <a
                                                     href="http://www.lepcoonline.com">http://www.lepcoonline.com</a>
                                             </div>
@@ -311,14 +311,14 @@
                                         <div>
                                             <h6>Romar Agencies &amp; Distributors, Inc.</h6>
 
-                                            <div>
+                                            <div class="distributor-address">
                                                 RR 10, Box 5250<br>
 
                                                 San Juan, PR 00926
                                             </div>
                                             <div>Phone: 787-720-5551</div>
 
-                                            <div>Fax: 787-720-0280</div>
+                                            <div class="distributor-fax">Fax: 787-720-0280</div>
                                             <div>Web: <a href="http://www.agroisla.com">http://www.agroisla.com</a>
                                             </div>
                                             <div>Email: <a href="mailto:service@agroisla.com">service@agroisla.com</a>

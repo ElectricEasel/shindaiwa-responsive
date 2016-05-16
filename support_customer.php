@@ -74,11 +74,11 @@
 									</div>
 									<div class="supp-item">
 										<h3 class="supp-item__tit">Become a Shindaiwa Dealer</h3>
-										<p>If you are interested in becoming a Shindaiwa dealer, please view the distributor map or email our Marketing Team.</p>
+										<p>If you are interested in becoming a Shindaiwa dealer, please view the <a href="">distributor map</a> or email our <a href="">Marketing Team</a>.</p>
 									</div>
 									<div class="supp-item">
 										<h3 class="supp-item__tit">Marketing and Advertising Inquiries</h3>
-										<p>For all marketing and advertising inquiries, please email our Marketing Team.</p>
+										<p>For all marketing and advertising inquiries, please email our <a href="">Marketing Team</a>.</p>
 									</div>
 								</div>
 
