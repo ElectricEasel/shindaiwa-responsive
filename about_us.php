@@ -13,7 +13,7 @@
 	<div class="body">
 		<div class="banner-inner" >
 			<div class="container banner-inner__text text-left text-uppercase">
-				<h1 class="banner-inner__title">about shindiawa</h1>
+				<h1 class="banner-inner__title">about shindaiwa</h1>
 			</div>
 		</div>
 

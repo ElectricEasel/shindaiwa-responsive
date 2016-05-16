@@ -13,7 +13,7 @@
 	<div class="body">
 		<div class="banner-inner" >
 			<div class="container banner-inner__text text-left text-uppercase">
-				<h1 class="banner-inner__title">about shindiawa</h1>
+				<h1 class="banner-inner__title">about shindaiwa</h1>
 			</div>
 		</div>
 
@@ -107,7 +107,7 @@
 											</div>
 										</div>
 										<div class="radio-group">
-											<h4 class="radio-group__tit">Please select your primary use of Shindiawa Equipment:</h4>
+											<h4 class="radio-group__tit">Please select your primary use of Shindaiwa Equipment:</h4>
 											<div class="row">
 												<div class="item-radio col-sm-6">
 													<label class="radio_item">
