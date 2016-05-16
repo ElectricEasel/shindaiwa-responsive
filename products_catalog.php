@@ -67,7 +67,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										trimmers
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image2.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -76,7 +76,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										brushcutters
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image3.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -85,7 +85,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										multi-tool system
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image4.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -94,7 +94,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										blowers
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image5.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -103,7 +103,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										hedge trimmers
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image6.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -112,7 +112,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										shafted hedge trimmers
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image7.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -121,7 +121,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										spreaders
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image8.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -130,7 +130,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										sprayers
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image9.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -139,7 +139,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										edger
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image10.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -148,7 +148,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										powerbroom
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image11.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>
@@ -157,7 +157,7 @@
 							<div class="col-sm-4 col-md-3">
 								<a href="#" class=" products-cat__item" target="_blank">
 									<span class="products-cat__name text-uppercase text-center">
-										chain saws
+										accessories
 									</span>
 									<span class="products-cat__img" style="background: url(/images/temp/cat_image12.png) center top 30px no-repeat; background-size: auto 80%;">
 									</span>

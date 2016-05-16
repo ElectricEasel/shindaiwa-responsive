@@ -67,7 +67,7 @@
 								</h2>
 								<div class="contact__prev-text">
 									<p class="contact__text"><b>Sign up to receive the occasional Shindaiwa Newsletter for important news, events and special offers. We will never sell your information to anyone and you can always unsubscribe later.
-									<a href="">Privacy Policy</a></b>0</p>
+									<a href="">Privacy Policy</a></b></p>
 								</div>
 								<div class="contact__form-block">
 									<from>

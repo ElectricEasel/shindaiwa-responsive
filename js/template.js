@@ -69,6 +69,8 @@
 			toggleMenuExpand();
 		});
 
+		$(".header").sticky({topSpacing:0});
+
 		$('.header__search-btn').on('click', function() {
 			$('.header__search').stop(0,0).toggleClass('active');
 		});
