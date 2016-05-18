@@ -249,9 +249,9 @@
 												<div class="table-cell">Flared Pipe Air Volume @ Nozzle (CFM)</div>
 											</div>
 											<div class="table-row">
-												<div class="table-cell">–</div>
-												<div class="table-cell">–</div>
-												<div class="table-cell">–</div>
+												<div class="table-cell">-</div>
+												<div class="table-cell">-</div>
+												<div class="table-cell">-</div>
 											</div>
 											<div class="table-row comp-row-name-param">
 												<div class="table-cell">Flared Pipe Max Air Speed @ Nozzle (mph)</div>
@@ -259,9 +259,9 @@
 												<div class="table-cell">Flared Pipe Max Air Speed @ Nozzle (mph)</div>
 											</div>
 											<div class="table-row">
-												<div class="table-cell">–</div>
-												<div class="table-cell">–</div>
-												<div class="table-cell">–</div>
+												<div class="table-cell">-</div>
+												<div class="table-cell">-</div>
+												<div class="table-cell">-</div>
 											</div>
 											<div class="table-row comp-row-name-param">
 												<div class="table-cell">Turbo Pipe Air Volume @ Nozzle (CFM)</div>

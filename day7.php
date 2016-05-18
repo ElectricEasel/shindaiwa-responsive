@@ -71,7 +71,7 @@
 							</div>
 							<div class="col-sm-8">
 								<div class="title-hBlack-red day7-download__title">
-									5-Year Consumer & 2-Year Commercial Warranties
+									5-Year Consumer & <br>2-Year Commercial Warranties
 								</div>
 							</div>
 						</div>

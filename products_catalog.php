@@ -10,7 +10,7 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-inner" >
+		<div class="banner-inner products-catalog" >
 			<div class="container banner-inner__text text-left text-uppercase">
 				<h1 class="banner-inner__title">Product catalog</h1>
 			</div>

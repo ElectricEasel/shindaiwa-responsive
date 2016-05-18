@@ -62,7 +62,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9">
-								<h2 class="contact__title">
+								<h2 class="contact__title about">
 									News & Events
 								</h2>
 								<article class="article">

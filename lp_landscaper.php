@@ -36,7 +36,7 @@
 				<div class="container-fluid green-triangle green-triangle--red text-center">
 					<div class="container">
 						<div class="row green-triangle__text">
-							<span class="blackCondensed">The brand new Landscaper Fleet Discount® Program rewards your
+							<span class="blackCondensed">The brand new Landscaper Fleet Discount<sup>&reg;</sup> Program rewards your
 								commitment to Shindaiwa and ECHO quality with deep product discounts and “no-hassle”
 								financing.</span> This flexible program allows you to start saving money on equipment,
 							attachments and accessories with a low initial $2,500 purchase. With two tiers of discount

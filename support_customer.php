@@ -11,7 +11,7 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-inner" >
+		<div class="banner-inner tech" >
 			<div class="container banner-inner__text text-left text-uppercase">
 				<h1 class="banner-inner__title">tech support</h1>
 			</div>
@@ -54,7 +54,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9">
-								<h2 class="contact__title">
+								<h2 class="contact__title about">
 									Customer Support
 								</h2>
 								<div class="supp-items">

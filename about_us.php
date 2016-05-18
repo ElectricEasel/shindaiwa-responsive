@@ -56,7 +56,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9">
-								<h2 class="contact__title">
+								<h2 class="contact__title about">
 									About Us
 								</h2>
 								<p><b>Shindaiwa is a legendary leader in the outdoor power equipment industry. Our long history includes the development of some of the most iconic equipment used including the trimmers T27 and T270, and a continuing commitment to quality and performance.  The Shindaiwa brand is manufactured and distributed by ECHO Incorporated, headquartered in Lake Zurich, IL, a Chicago suburb.</b></p>

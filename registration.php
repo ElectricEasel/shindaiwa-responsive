@@ -11,7 +11,7 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-inner" >
+		<div class="banner-inner registration" >
 			<div class="container banner-inner__text text-left text-uppercase">
 				<h1 class="banner-inner__title">warranty</h1>
 			</div>
@@ -49,7 +49,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9 registration">
-								<h2 class="contact__title">
+								<h2 class="contact__title about">
 									Register Your Shindaiwa
 								</h2>
 								<div class="contact__form-block">

@@ -1171,8 +1171,8 @@
         text-align: right;
     }
     @media (min-width: @screen-tb-min) {
-        background: url(/images/temp/7day-banner-bg-desctop.png) -100px 0 no-repeat;
-        background-size: cover;
+            background: url(/images/temp/7day-banner-bg-desctop.png) -225px 1 no-repeat;
+            background-size: cover;
     }
     @media (min-width: @screen-sm-min) {
         min-height: 320px;
@@ -1317,7 +1317,7 @@
         }
     }
 }
-.download-pdf {
+.d-pdf {
     a {
         display: inline-block;
         color: @red;
@@ -2074,6 +2074,10 @@
         letter-spacing: -0.027em;
         display: inline-block;
         margin: 0 0 18px;
+        &:hover {
+            color: black;
+            text-decoration: none;
+        }
     }
     &__subname {
         font-size: 18px;
@@ -2096,7 +2100,7 @@
         letter-spacing: -0.005em;
         margin: 0 0 10px;
         span {
-            .eurostileBoldCond();
+            .hCondensed();
             font-size: 26px;
             letter-spacing: -0.027em;
             display: inline-block;
@@ -2203,14 +2207,6 @@ ul#distributor-list li {
 ul#distributor-list li:nth-child(even) {
     background-color: #f1f1f1
 }
-
-ul#distributor-list li h6 {
-    font-family: "United Sans", sans-serif;
-    font-size: 16px;
-    margin: 0 0 .25em;
-    font-weight: 400
-}
-
 
 ul#distributor-list a:hover, ul#distributor-list a:focus {
     text-decoration: none
@@ -2554,7 +2550,7 @@ ul#distributor-list li:nth-child(even) {
 }
 
 ul#distributor-list li h6 {
-    font-family: "United Sans", sans-serif;
+    .hBlack();
     font-size: 16px;
     margin: 0 0 .25em;
     font-weight: 400
@@ -2592,9 +2588,10 @@ ul#distributor-list li h6 {
     color: #000 !important;
     border-radius: 6px !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5) !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
     padding: 18px !important;
-    overflow: visible !important
+    overflow: visible !important;
+    .hCondensed();
 }
 
 .map-tooltip .qtip-titlebar {
@@ -2602,7 +2599,8 @@ ul#distributor-list li h6 {
     background-color: #fff !important;
     padding: 0 !important;
     font-size: 15px !important;
-    overflow: visible !important
+    overflow: visible !important;
+    .hBlack();
 }
 
 .map-tooltip .qtip-titlebar:before {
@@ -2705,9 +2703,9 @@ p.italic-style {
     font-weight: 600;
 }
 .contact__title {
-    &.news {
+    &.about {
         position: relative;
-        top: 3px;
+        top: 4px;
     }
 }
 .txt {
@@ -2717,4 +2715,102 @@ p.italic-style {
     &.dealers {
         font-weight: 100;
     }
+}
+.lp-banner__bottom-img img {
+    margin: 0 0 0 -56px;
+    max-width: 850px;
+    left: 20px;
+    position: relative;
+    top: 3px;
+    @media (min-width: 768px) {
+        max-width: 900px;
+    }
+    @media (min-width: 991px) {
+        max-width: 1400px;
+    }
+}
+.speed-guide__title {
+  color: #e31937;
+}
+.day7-content__text p {
+    .hCondensed();
+}
+.day7-download__text p {
+    .hCondensed();
+}
+.banner-inner {
+    &.products {
+        background: url(/images/temp/product-banner.png) 50% 0 no-repeat;
+        @media (min-width: 768px) {
+            padding: 25px 0 20px;
+            margin-bottom: 0;
+            border-bottom: 5px solid #000;
+            background-size: cover;
+        }
+        @media (min-width: 992px) {
+            padding: 47px 0 57px;
+        }
+    }
+    &.products-catalog {
+        background: url(/images/temp/products-catalog1.png) 50% 0 no-repeat;
+        @media (min-width: 768px) {
+            padding: 25px 0 20px;
+            margin-bottom: 0;
+            border-bottom: 5px solid #000;
+            background-size: cover;
+        }
+        @media (min-width: 992px) {
+            padding: 47px 0 57px;
+        }
+    }
+    &.registration {
+        background: url(/images/temp/warranty-banner.png) 50% 0 no-repeat;
+        @media (min-width: 768px) {
+            padding: 25px 0 20px;
+            margin-bottom: 0;
+            border-bottom: 5px solid #000;
+            background-size: cover;
+        }
+        @media (min-width: 992px) {
+            padding: 47px 0 57px;
+        }
+    }
+    &.search {
+        background: url(/images/temp/search-banner.png) 50% 0 no-repeat;
+        @media (min-width: 768px) {
+            padding: 25px 0 20px;
+            margin-bottom: 0;
+            border-bottom: 5px solid #000;
+            background-size: cover;
+        }
+        @media (min-width: 992px) {
+            padding: 47px 0 57px;
+        }
+    }
+    &.tech {
+        background: url(/images/temp/tech-banner.png) 50% 0 no-repeat;
+        @media (min-width: 768px) {
+            padding: 25px 0 20px;
+            margin-bottom: 0;
+            border-bottom: 5px solid #000;
+            background-size: cover;
+        }
+        @media (min-width: 992px) {
+            padding: 47px 0 57px;
+        }
+    }
+}
+.goods-category__item-desc {
+    padding-right: 60px;
+}
+.goods-category__item-title {
+    margin: 0 0 6px;
+}
+.compare_product .comp-row-name-param .table-cell {
+    .hBlack();
+}
+.recall__val-item {
+    position: relative;
+    width: 250px;
+    right: 32px;
 }

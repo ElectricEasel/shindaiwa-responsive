@@ -59,7 +59,7 @@
 								</div>
 							</div>
 							<div class="contact col-md-9">
-								<h2 class="contact__title">
+								<h2 class="contact__title about">
 									Contact Us
 								</h2>
 								<div class="contact__info-bl">

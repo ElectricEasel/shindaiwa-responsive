@@ -36,7 +36,7 @@
 				<div class="container-fluid green-triangle text-center">
 					<div class="container">
 						<div class="row green-triangle__text">
-							<span class="blackCondensed">The brand new Arborist Fleet Discount® Program rewards your
+							<span class="blackCondensed">The brand new Arborist Fleet Discount<sup>&reg;</sup> Program rewards your
 								commitment to Shindaiwa Chain Saw quality with deep product discounts and “no-hassle”
 								financing.</span> This flexible program allows you to start saving money with a low
 							initial $1,500 purchase. With two tiers of discount you will save more as you bundle your

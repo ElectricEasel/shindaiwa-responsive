@@ -11,7 +11,7 @@
 	<?php include 'header.php' ?>
 	<div class="body">
 
-		<div class="banner-inner" >
+		<div class="banner-inner products" >
 			<div class="container banner-inner__text text-left text-uppercase">
 				<h1 class="banner-inner__title">Products</h1>
 			</div>

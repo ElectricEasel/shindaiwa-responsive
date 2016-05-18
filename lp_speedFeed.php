@@ -73,16 +73,16 @@
 					<div class="container speed-about__text-wrap">
 						<p>
 							<strong>
-								The Speed-Feed<sup>®</sup> trimmer head is the fastest loading bump-to-advance style
+								The Speed-Feed<sup>&reg;</sup> trimmer head is the fastest loading bump-to-advance style
 								head on the market. In fact, it can be reloaded without disassembly in 30 seconds or
 								less - there is no need to press in stiff tabs or unlock covers just to re-load line.
 							</strong>
 						</p>
 						<p>
-							The Speed-Feed® is perfectly balanced for vibration-free operation, and its smooth cover
+							The Speed-Feed<sup>&reg;</sup> is perfectly balanced for vibration-free operation, and its smooth cover
 							design glides while trimming. It comes pre-loaded with .095" diameter Silentwist™ trimmer
-							line.  The Speed-Feed® 400 is universal and includes adapters for use on both straight
-							shaft and curved shaft models (non-bulk pack only).  The Speed-Feed® 450 trimmer head is
+							line.  The Speed-Feed<sup>&reg;</sup> 400 is universal and includes adapters for use on both straight
+							shaft and curved shaft models (non-bulk pack only).  The Speed-Feed<sup>&reg;</sup> 450 trimmer head is
 							for units above 24cc.
 						</p>
 
@@ -118,11 +118,11 @@
 								</div>
 								<div class="speed-conf__item clearfix">
 									<div class="pull-left speed-conf__left">78890-30000</div>
-									<div class="pull-right speed-conf__right">Speed-Feed® 400 Trimmer Head .095” dia. line</div>
+									<div class="pull-right speed-conf__right">Speed-Feed<sup>&reg;</sup> 400 Trimmer Head .095” dia. line</div>
 								</div>
 								<div class="speed-conf__item clearfix">
 									<div class="pull-left speed-conf__left">28820-08000</div>
-									<div class="pull-right speed-conf__right">Speed-Feed® 450 Trimmer Head .095” dia. line</div>
+									<div class="pull-right speed-conf__right">Speed-Feed<sup>&reg;</sup> 450 Trimmer Head .095” dia. line</div>
 								</div>
 								<div class="speed-conf__btn text-center">
 									<a href="#" class="btn-red btn">visit speedfeedhead.com</a>

@@ -61,7 +61,7 @@
                             </div>
                             <div class="col-md-9 distributor-container">
                                 <div class="contact contact--distrib ">
-                                    <h2 class="contact__title">
+                                    <h2 class="contact__title about">
                                         Distributor Network
                                     </h2>
 

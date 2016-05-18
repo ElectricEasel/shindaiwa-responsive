@@ -60,7 +60,7 @@
 							</div>
 							<div class="contact col-md-9">
 								<div class="contact__headline with-link clearfix">
-									<h2 class="contact__title">
+									<h2 class="contact__title about">
 										Testimonials
 									</h2>
 									<div class="right_txt">
