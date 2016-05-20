@@ -32,7 +32,7 @@
 
 
 	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7COswald:400,300,700' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
 		<script src="/media/jui/js/html5.js"></script>

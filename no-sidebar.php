@@ -24,10 +24,10 @@
 				<div class="container ">
 					<div class="small-banners owl-carousel">
 						<div class="item">
-							<img src="/images/temp/2nd_banner_img1-2.jpg">
+							<img src="/images/temp/2nd_banner_img1-2.jpg" alt="Trusted Source Image">
 						</div>
 						<div class="item">
-							<img src="/images/temp/2nd-banner-img2-2.jpg">
+							<img src="/images/temp/2nd-banner-img2-2.jpg" alt="Sales Image">
 						</div>
 						
 						<div class="item">
@@ -110,7 +110,7 @@
 							<img src="/images/temp/waranty_7day.png" title="" alt="">
 						</div>
 						<div class="shindaiwa__title ">
-							Performance. Durability. Quality.
+							Performance. Durability. Quality.
 						</div>
 						<div class="shindaiwa__text">
 							<p>
