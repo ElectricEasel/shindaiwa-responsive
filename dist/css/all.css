@@ -8938,6 +8938,29 @@ yx-axis
   max-width: 350px;
   margin: 0 auto;
 }
+.small-banners .item-sales {
+  background-image: url(/images/temp/2nd_banner_img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.small-banners .item-dealers {
+  background-image: url(/images/temp/2nd-banner-img2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.small-banners .item-second-banner {
+  font-size: 19px;
+  padding: 40% 20px 20px;
+}
+.small-banners .item-second-banner.no-heading {
+  padding-top: calc(40% + 26px);
+}
+.small-banners .item-second-banner h6 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 5px;
+}
 .small-banners .owl-carousel .owl-item img {
   width: auto;
 }
@@ -8945,7 +8968,7 @@ yx-axis
   position: absolute;
   left: 25px;
   right: 25px;
-  bottom: 33px;
+  bottom: 0px;
 }
 .small-banners__title {
   font-size: 21px;
@@ -10432,7 +10455,14 @@ yx-axis
 }
 .products-cat__img {
   display: block;
-  height: 184px;
+  height: 100%;
+  background-size: 100%;
+  background-position-y: -36px;
+}
+@media (max-width: 767px) {
+  .products-cat__img {
+    height: 225px;
+  }
 }
 @media (min-width: 768px) {
   .products-cat {
@@ -11211,6 +11241,7 @@ ul#distributor-list a:focus {
   background: url(/images/temp/shindaiwa_img.png) 0 0 no-repeat;
   background-size: cover;
   padding: 20px 0;
+  overflow: hidden;
 }
 .shindaiwa__img {
   margin: 0 0 13px;
@@ -13079,7 +13110,7 @@ ul#distributor-list a:focus {
   font-weight: 300;
 }
 #sticky-wrapper {
-  z-index: 1;
+  z-index: 9999;
   position: relative;
   height: auto;
 }
@@ -13087,7 +13118,12 @@ ul#distributor-list a:focus {
   font-size: 13px;
 }
 .header__top {
-  padding-top: 15px;
+  padding-top: 0px;
+}
+@media (min-width: 992px) {
+  .header__top {
+    padding-top: 12px;
+  }
 }
 .distributor-fax {
   padding-bottom: 10px;
@@ -13327,5 +13363,37 @@ p.italic-style {
     border-bottom: 1px solid #d6d6d6;
     padding: 3px 15px;
     font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .owl-carousel .owl-item img {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+.shindaiwa__instrumnets.text-center img {
+  max-width: 127%;
+  right: 32px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .shindaiwa__instrumnets.text-center img {
+    max-width: 127%;
+    right: 130px;
+    position: relative;
+  }
+}
+@media (min-width: 1200px) {
+  .shindaiwa__instrumnets.text-center img {
+    max-width: 127%;
+    right: 105px;
+    position: relative;
+  }
+}
+@media (min-width: 1400px) {
+  .shindaiwa__instrumnets.text-center img {
+    max-width: 127%;
+    right: 25px;
+    position: relative;
   }
 }

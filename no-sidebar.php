@@ -24,34 +24,12 @@
 				<div class="container ">
 					<div class="small-banners owl-carousel">
 						<div class="item">
-							<div class="small-banners__item small-banners__item1">
-								<div class="small-banners__img">
-									<img src="/images/temp/small-banner-img1.png" title="" alt="">
-								</div>
-								<div class="small-banners__content">
-									<div class="small-banners__title text-uppercase">Buy from a trusted source!</div>
-									<div class="small-banners__desc">
-										Shindaiwa equipment is trusted for its power, durability, and comfort and it’s
-										only available at local servicing dealers.
-									</div>
-									<a href="#" class="small-banners__link stn-link">trusted dealer stories ></a>
-								</div>
-							</div>
+							<img src="/images/temp/2nd_banner_img1-2.jpg">
 						</div>
 						<div class="item">
-							<div class="small-banners__item small-banners__item1">
-								<div class="small-banners__img">
-									<img src="/images/temp/small-banner-img2.png" title="" alt="">
-								</div>
-								<div class="small-banners__content">
-									<div class="small-banners__desc">
-										Select dealers are holding 20% Off One Day Sales Events this spring! Check back
-										every month for deals near you.
-									</div>
-									<a href="#" class="small-banners__link stn-link">View sales events ></a>
-								</div>
-							</div>
+							<img src="/images/temp/2nd-banner-img2-2.jpg">
 						</div>
+						
 						<div class="item">
 							<div class="small-banners__item small-banners__video small-banners__item1">
 								<div class="video-one video-one__upload">

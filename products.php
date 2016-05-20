@@ -41,7 +41,7 @@
 									<div class="products-list__name text-uppercase">
 										Blowers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img1.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img1.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -50,7 +50,7 @@
 									<div class="products-list__name text-uppercase">
 										chain saws
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img2.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img2.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -59,7 +59,7 @@
 									<div class="products-list__name text-uppercase">
 										brushcutters
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img3.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img3.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -68,7 +68,7 @@
 									<div class="products-list__name text-uppercase">
 										edgers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img4.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img4.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -77,7 +77,7 @@
 									<div class="products-list__name text-uppercase">
 										multi-tool
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img5.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img5.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -86,7 +86,7 @@
 									<div class="products-list__name text-uppercase">
 										hedge trimmers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img6.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img6.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -95,7 +95,7 @@
 									<div class="products-list__name text-uppercase">
 										shafted hedge trimmers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img7.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img7.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -104,7 +104,7 @@
 									<div class="products-list__name text-uppercase">
 										trimmers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img8.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img8.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -113,7 +113,7 @@
 									<div class="products-list__name text-uppercase">
 										powerbroom
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img9.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img9.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -122,7 +122,7 @@
 									<div class="products-list__name text-uppercase">
 										spreaders
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img10.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img10.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -131,7 +131,7 @@
 									<div class="products-list__name text-uppercase">
 										sprayers
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img11.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img11.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -140,7 +140,7 @@
 									<div class="products-list__name text-uppercase">
 										56v lithium-ion
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img12.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img12.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -149,7 +149,7 @@
 									<div class="products-list__name text-uppercase">
 										speed-feed <sup>®</sup>
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img13.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img13.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -158,7 +158,7 @@
 									<div class="products-list__name text-uppercase">
 										accessories
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img14.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img14.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>
@@ -167,7 +167,7 @@
 									<div class="products-list__name text-uppercase">
 										red armor oil
 									</div>
-									<div class="products-list__img" style="background: url(/images/temp/product-list-img15.png) center no-repeat; background-size: cover;">
+									<div class="products-list__img" style="background: url(/images/temp/product-list-img15.png) center no-repeat; background-size: 100%;">
 									</div>
 								</a>
 							</div>

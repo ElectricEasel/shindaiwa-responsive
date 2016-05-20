@@ -179,6 +179,33 @@
         max-width: 350px;
         margin: 0 auto;
     }
+    .item-sales {
+        background-image: url(/images/temp/2nd_banner_img1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        @media (min-width:@screen-sm) {
+
+        }
+    }
+    .item-dealers {
+        background-image: url(/images/temp/2nd-banner-img2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .item-second-banner {
+        font-size: 19px;
+        padding: 40% 20px 20px;
+        &.no-heading {
+            padding-top: ~"calc(40% + 26px)";
+        }
+
+        h6 {
+            color: red;
+            text-transform: uppercase;
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+    }
     .owl-carousel .owl-item img {
         width: auto;
     }
@@ -186,7 +213,7 @@
         position: absolute;
         left: 25px;
         right: 25px;
-        bottom: 33px;
+        bottom: 0px;
     }
     &__title {
         font-size: 21px;
@@ -1672,7 +1699,12 @@
     }
     &__img {
         display: block;
-        height: 184px;
+        height: 100%;
+        background-size: 100%;
+        background-position-y: -36px;
+        @media (max-width: 767px) {
+            height: 225px;
+        }
     }
     @media (min-width: @screen-sm-min) {
         padding: 34px 0 117px;
@@ -2463,6 +2495,7 @@ ul#distributor-list a:hover, ul#distributor-list a:focus {
     background: url(/images/temp/shindaiwa_img.png) 0 0 no-repeat;
     background-size: cover;
     padding: 20px 0;
+    overflow: hidden;
     &__img {
         margin: 0 0 13px;
         img {
@@ -2702,7 +2735,7 @@ ul#distributor-list a:hover, ul#distributor-list a:focus {
 @import "main2.less";
 
 #sticky-wrapper {
-    z-index: 1;
+    z-index: 9999;
     position: relative;
     height: auto;
 }
@@ -2710,7 +2743,10 @@ ul#distributor-list a:hover, ul#distributor-list a:focus {
     font-size: 13px;
 }
 .header__top {
-    padding-top: 15px;
+    padding-top: 0px;
+    @media (min-width: 992px) {
+        padding-top: 12px;
+    }
 }
 .distributor-fax {
     padding-bottom: 10px;
@@ -2920,5 +2956,35 @@ p.italic-style {
         border-bottom: 1px solid #d6d6d6;
         padding: 3px 15px;
         font-size: 15px;
+    }
+}
+.owl-carousel .owl-item {
+    img {
+        @media (max-width: 767px) {
+        width: 320px;
+        margin: 0 auto;
+        }
+    }
+}
+.shindaiwa__instrumnets.text-center {
+    img {
+        max-width: 127%;
+        right: 32px;
+        position: relative;
+        @media (min-width: 768px) {
+            max-width: 127%;
+            right: 130px;
+            position: relative;
+        }
+        @media (min-width: 1200px) {
+            max-width: 127%;
+            right: 105px;
+            position: relative;
+        }
+        @media (min-width: 1400px) {
+            max-width: 127%;
+            right: 25px;
+            position: relative;
+        }
     }
 }
