@@ -19,11 +19,7 @@
 <!--	<script src="/media/jui/js/jquery-migrate.min.js?v=1432136163" type="text/javascript"></script>-->
 <!--	<script src="/media/system/js/caption.js?v=1455058025" type="text/javascript"></script>-->
 	<script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/js/jquery.formstyler.min.js" type="text/javascript"></script>
-	<script src="/js/owl.carousel.min.js" type="text/javascript"></script>
-	<script src="/js/jquery.mCustomScrollbar.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/sticky.js"></script>
-	<script type="text/javascript" src="js/jquery.matchheight.js"></script>
+	<script src="/js/combined.js" type="text/javascript"></script>
 	<script src="js/template.js" type="text/javascript"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxuUk9OnVxHLgiTYQFn6nVRrCwUHDKqNY"  type="text/javascript"></script>
 	<script type="text/javascript" src="js/template2.js"></script>
