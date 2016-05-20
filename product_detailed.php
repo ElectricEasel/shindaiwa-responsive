@@ -16,7 +16,7 @@
 				<a href="#" class="compare-top__link compare-top__text">Blowers</a>
 			</div>
 			<span class="compare-top__divider divider">|</span>
-			<span class="compare-top__text">Compare Blowers</span>
+			<span class="compare-top__text">EB600RT Backpack Blower</span>
 		</div>
 
 		<div class="banner-inner compare-banner" >

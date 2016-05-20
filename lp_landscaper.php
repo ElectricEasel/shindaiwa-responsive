@@ -16,7 +16,7 @@
 					<img src="/images/temp/lp-banner-center-img2.png" title="" alt="">
 				</div>
 			</div>
-			<div class="lp-banner__bottom-img">
+			<div class="lp-banner__bottom-img landscaper">
 				<img src="/images/temp/lp-banner-bottom-img2.png" title="" alt="">
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 					</div>
 				</div>
 
-				<div class="container-fluid">
+				<div class="container-fluid landscaper">
 					<div class="container">
 						<div class="row">
 							<div class="stn-list stn-list--red clearfix">

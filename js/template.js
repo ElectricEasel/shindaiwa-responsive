@@ -71,6 +71,11 @@
 
 		$(".header").sticky({topSpacing:0});
 
+		$(window).resize(function() {
+			var NewHeight = $(".header").outerHeight();
+			$("#sticky-wrapper").height(NewHeight);
+		});
+
 		$('.header__search-btn').on('click', function() {
 			$('.header__search').stop(0,0).toggleClass('active');
 		});

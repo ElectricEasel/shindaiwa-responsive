@@ -44,7 +44,7 @@
                                 <div class="about-aside">
                                     <h3 class="about-aside__tit">about shindaiwa</h3>
                                     <ul class="about-aside__list">
-                                        <li class="active"><a href="">About Us</a></li>
+                                        <li><a href="">About Us</a></li>
                                         <li><a href="">News & Events</a></li>
                                         <li><a href="">Testimonials</a></li>
                                         <li><a href="">Press Releases</a></li>
@@ -55,7 +55,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="">Video Library</a></li>
-                                        <li><a href="">Distributor Network</a></li>
+                                        <li class="active"><a href="">Distributor Network</a></li>
                                     </ul>
                                 </div>
                             </div>

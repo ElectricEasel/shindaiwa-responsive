@@ -74,8 +74,10 @@
 .banner-above {
     position: relative;
     min-height: 409px;
-    background: url(/images/temp/main-mobile-bg.png) 0 -1px no-repeat;
+    background: url(/images/temp/main-banner.png) 0 -1px no-repeat;
     background-size: cover;
+    background-position-y: 0px;
+    background-position-x: -90px;
     border-bottom: 5px solid @black;
     margin: 0 0 28px;
     &__text {
@@ -83,13 +85,29 @@
         left: 0;
         right: 0;
         bottom: 11px;
+        @media (max-width: 767px) {
+        text-align: right;
+        top: 97px;
+        }
     }
-    &__title,
+    &__title {
+        .eurostileBoldCond();
+        color: @red;
+        font-size: 35px;
+        line-height: 45px;
+        @media (max-width: 767px) {
+        position: relative;
+        right: 74px;
+        }
+    }
     &__subtitle {
         .eurostileBoldCond();
         color: @red;
         font-size: 35px;
         line-height: 45px;
+        @media (max-width: 767px) {
+        position: relative;
+        }
     }
 
     &__subtitle {
@@ -102,6 +120,10 @@
         .eurostileBoldCond();
         color: @black;
         margin: 5px 0 0;
+        @media (max-width: 767px) {
+        position: relative;
+        right: 26px;
+        }
     }
     @media (min-width: @screen-sm-min) {
         background: url(/images/temp/main-banner.png) 0 0 no-repeat;
@@ -540,6 +562,10 @@
         font-weight: 500;
         font-size: 28px;
         line-height: 35px;
+        @media (max-width: 767px) {
+            position: relative;
+            top: 14px;
+        }
         span {
             display: block;
             .hCondensedHeavy();
@@ -1125,7 +1151,7 @@
 // 7day-banner begin *****************
 
 .day7-banner {
-    background: url(/images/temp/7day-banner-bg.png) 0 -60px no-repeat;
+    background: url(/images/temp/7day-banner-bg-desctop.png) 0 -60px no-repeat;
     min-height: 334px;
     overflow: hidden;
     margin: 0 0 17px;
@@ -1172,7 +1198,9 @@
     }
     @media (min-width: @screen-tb-min) {
             background: url(/images/temp/7day-banner-bg-desctop.png) -225px 1 no-repeat;
-            background-size: cover;
+            background-position-x: -318px;
+            background-position-y: -86px;
+            background-size: 1300px;
     }
     @media (min-width: @screen-sm-min) {
         min-height: 320px;
@@ -2676,6 +2704,7 @@ ul#distributor-list a:hover, ul#distributor-list a:focus {
 #sticky-wrapper {
     z-index: 1;
     position: relative;
+    height: auto;
 }
 .header__input-search {
     font-size: 13px;
@@ -2813,4 +2842,83 @@ p.italic-style {
     position: relative;
     width: 250px;
     right: 32px;
+}
+.green-triangle--red {
+    position: relative;
+    @media (max-width: 599px) {
+        padding: 53px 15px 30px;
+        height: 376px;
+        background-size: cover;
+        bottom: 8px;
+    }
+    @media (min-width: 600px) {
+        bottom: 5px;
+    }
+    @media (min-width: 768px) {
+        top: 0px;
+    }
+    @media (min-width: 1200px) {
+        top: 2px;
+    }
+}
+.lp-banner__bottom-img img {
+    left: 28px;
+    width: 100%;
+    max-width: 100%;
+    @media (max-width: 558px) {
+        width: 558px;
+        max-width: 558px;
+    }
+}
+.lp-banner__bottom-img {
+    &.landscaper {
+        img {
+            @media (max-width: 900px) {
+                max-width: 900px;
+                width: 900px;
+                position: relative;
+            }
+            @media (max-width: 865px) {
+                right: 35px;
+            }
+            @media (max-width: 900px) {
+            width: 900px;
+            max-width: 900px;
+            }
+            @media (max-width: 768px) {
+            width: 776px;
+            }
+        }
+    }
+}
+#main-nav a:hover {
+    color: #e31937;
+}
+#main-nav a:active {
+    color: #e31937;
+}
+    #main-nav ul.main-level li ul.sub-level li a {
+        color: #000000;
+        padding: 10px 0 6px;
+        width: 220px;
+        border-bottom: 1px solid #f1f1f1;
+        border-top: 1px solid #dadada;
+        border-right: 1px solid #dadada;
+        font-size: 13px;
+    }
+@media (min-width: 992px) {
+    #main-nav ul.main-level li ul.sub-level li a {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 1200px) {
+    #main-nav ul.main-level li ul.sub-level li a {
+        display: block;
+        width: 100%;
+        background: #eee;
+        border-bottom: 1px solid #d6d6d6;
+        padding: 3px 15px;
+        font-size: 15px;
+    }
 }

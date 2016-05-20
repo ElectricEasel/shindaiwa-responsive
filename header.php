@@ -47,66 +47,68 @@
 				<li><a href="/" class="active">Home</a></li>
 				<li class="back"><a href="javascript:void(0);">&lt; menu</a></li>
 				<li class="parent special">
-					<a class="parent-link" href="/products">Products</a>
+					<a class="parent-link" href="/products.php">Products</a>
 					<ul class="sub-level">
 						<li class="mobile"><a href="/products">All Products</a></li>
-						<li><a href="#">Accessories</a></li>
-						<li><a href="#">Bed Redefiners</a></li>
 						<li><a href="#">Blowers</a></li>
+						<li><a href="#">Chain Saws</a></li>
 						<li><a href="#">Brushcutters</a></li>
-						<li><a href="/products/chain-saws">Chain Saws</a></li>
-						<li><a href="#">Chippers</a></li>
-						<li><a href="#">Cordless Products</a></li>
-						<li><a href="#">Earth / Ice Augers</a></li>
 						<li><a href="#">Edgers</a></li>
-						<li><a href="#">Engine Drills</a></li>
-						<li><a href="#">Fuels Oils and Lubricants</a></li>
+						<li><a href="#">Multi-Tool</a></li>
 						<li><a href="#">Hedge Trimmers</a></li>
-						<li><a href="#">PowerFuel</a></li>
-						<li><a href="#">Pro Attachment Series&#8482;</a></li>
-						<li><a href="#">Pruners</a></li>
-						<li><a href="#">Pumps</a></li>
-						<li><a href="#">Red Armor Oil</a></li>
-						<li><a href="#">Shred &lsquo;N&rsquo; Vac &reg;</a></li>
-						<li><a href="#">Speed-Feed</a></li>
-						<li><a href="#">Sprayers</a></li>
-						<li><a href="#">Tillers / Cultivators</a></li>
-						<li><a href="#">Catalogs</a></li>
+						<li><a href="#">Shafted Hedge Trimmers</a></li>
 						<li><a href="#">Trimmers</a></li>
+						<li><a href="#">Powerbroom</a></li>
+						<li><a href="#">Spreaders</a></li>
+						<li><a href="#">Sprayers</a></li>
+						<li><a href="#">56V Lithium-Ion</a></li>
+						<li><a href="#">Speed-Feed</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Red Armor Oil</a></li>
+						<li><a href="#">Catalog</a></li>
 					</ul>
 				</li>
 				<li class="parent">
-					<a class="parent-link" href="#">Tech Support</a>
+					<a class="parent-link" href="/tech_support.php">Tech Support</a>
+					<ul class="sub-level">
+						<li><a href="#">Dealer Locator</a></li>
+						<li><a href="#">Product Support</a></li>
+						<li><a href="#">Media Resource</a></li>
+						<li><a href="#">Customer Support</a></li>
+						<li><a href="#">Dealer Website</a></li>
+						<li><a href="#">Parts Lookup</a></li>
+						<li><a href="recall_info.php">Recall Information</a></li>
+						<li><a href="/search_doc.php">Technical Docs</a></li>
+					</ul>
 				</li>
 
 				<li class="parent">
-					<a class="parent-link" href="#">Warranty</a>
+					<a class="parent-link" href="/day7.php">Warranty</a>
 					<ul class="sub-level">
-						<li><a href="#">Register Your ECHO</a></li>
-						<li><a href="#">ECHO Consumer Warranty</a></li>
-						<li><a href="#">ECHO Commercial Warranty</a></li>
-						<li><a href="#">Learn About Ethanol</a></li>
-						<li><a href="#">Recall Information</a></li>
+						<li><a href="/day7.php">Warranty Information</a></li>
+						<li><a href="/registration.php">Register Your Shindaiwa</a></li>
 					</ul>
 				</li>
 				<li class="parent">
-					<a class="parent-link" href="#">About Shindaiwa</a>
+					<a class="parent-link" href="/about_us.php">About Shindaiwa</a>
 					<ul class="sub-level">
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Company History</a></li>
-						<li><a href="#">Employment Opportunities</a></li>
-						<li><a href="#">News and Events</a></li>
-						<li><a href="#">Testimonials and Reviews</a></li>
-						<li><a href="#">Chain Saw Carving</a></li>
-						<li><a href="#">Pro Environment</a></li>
-						<li><a href="#">Professional Bull Riders</a></li>
-						<li><a href="/video-library">Videos</a></li>
-						<li><a href="#">Distributor Network</a></li>
-						<li><a href="#">Newsletter Signup</a></li>
+						<li><a href="/about_us.php">About Us</a></li>
+						<li><a href="#">Buy From A Trusted Source</a></li>
+						<li><a href="/news_a_events.php">News & Events</a></li>
+						<li><a href="/testimonial.php">Testimonials</a></li>
+						<li><a href="/press_releases.php">Press Releases</a></li>
+						<li><a href="/contact.php">Contact Us</a></li>
+						<li><a href="/video_library.php">Video Library</a></li>
+						<li><a href="/about_distributors.php">Distributor Network</a></li>
 					</ul>
 				</li>
-				<li>
-					<a class="parent-link" href="#">Contact Us</a>
+				<li class="parent">
+					<a class="parent-link" href="/contact.php">Contact Us</a>
+					<ul class="sub-level">
+						<li><a href="/about_distributors.php">Distributors</a></li>
+						<li><a href="/contact.php">Email Us</a></li>
+						<li><a href="/newsletter.php">Newsletter Signup</a></li>
+					</ul>
 				</li>
 				<li>
 					<a class="parent-link" href="#">Dealer Locator</a>
