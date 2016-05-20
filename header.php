@@ -44,7 +44,7 @@
 
 		<nav id="main-nav" class="collapsed">
 			<ul class="main-level container">
-				<li><a href="/" class="active">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li class="back"><a href="javascript:void(0);">&lt; menu</a></li>
 				<li class="parent special">
 					<a class="parent-link" href="/products.php">Products</a>
