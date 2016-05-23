@@ -10,7 +10,7 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-above lp-banner lp-banner--red" style="background: url(/images/temp/lp-banner-bg1.png) 0 0 no-repeat;">
+		<div class="lp-banner lp-banner--red">
 			<div class="container text-center">
 				<div class="lp-banner__center-img">
 					<img src="/images/temp/lp-banner-center-img2.png" title="" alt="">
