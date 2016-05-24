@@ -165,6 +165,9 @@
         overflow: hidden;
         max-width: 350px;
         margin: 0 auto;
+        @media (max-width: 991px) {
+            max-height: 239px;
+        }
     }
     .item-sales {
         background-image: url(/images/temp/2nd_banner_img1.jpg);
@@ -521,6 +524,10 @@
     position: relative;
     background-size: cover;
     border-bottom: 26px solid @green-light;
+    background-size: 100%;
+    background-size: 294%;
+    background-position-x: -451px;
+    background-image: url(/images/temp/lp-banner-bg.png);
     &--red {
         border-color: @red-middle;
     }
@@ -533,6 +540,7 @@
         bottom: -57px;
         width: 100%;
         text-align: center;
+        overflow: hidden;
         img {
             max-width: 600px;
             margin: 0 0 0 -56px;
@@ -540,6 +548,8 @@
     }
     @media (min-width: @screen-sm-min) {
         margin: 0 0 29px;
+        background-size: 120%;
+        background-position-x: -135px;
         &__center-img {
             max-width: 285px;
             margin: 35px auto 0;
@@ -553,6 +563,8 @@
     }
     @media (min-width: @screen-md-min) {
         min-height: 575px;
+        background-size: 138%;
+        background-position-x: -308px;
         &__center-img {
             max-width: 400px;
             margin: 25px auto 0;
@@ -561,20 +573,26 @@
             min-height: 570px;
         }
     }
+    @media (min-width: 1200px) {
+        background-size: 114%;
+        background-position-x: -160px;
+    }
 }
 
 .dark-triangle {
-    background: url(/images/temp/triangle-black-bg.png) center -97px no-repeat;
+    background: url(/images/temp/triangle-black-bg.png) center -61px no-repeat;
     color: @white;
     .hCondensed();
     font-weight: 500;
     margin: -29px auto 0;
     padding: 44px 15px 22px;
-    min-height: 200px;
+    min-height: 239px;
     &__text {
         font-weight: 500;
         font-size: 28px;
         line-height: 35px;
+        position: relative;
+        top: 38px;
         @media (max-width: 767px) {
             position: relative;
             top: 14px;
@@ -588,11 +606,11 @@
         }
     }
     @media (min-width: @screen-sm-min) {
-        background-position: center -106px;
+        background-position: center -62px;
         font-weight: 500;
-        margin: -29px auto 6px;
-        padding: 21px 15px 30px;
-        min-height: 180px;
+        margin: -30px auto 6px;
+        padding: 24px 21px 40px;
+        min-height: 229px;
         &__text {
             font-size: 35px;
             line-height: 51px;
@@ -994,11 +1012,20 @@
     &__subtitle {
         display: inline;
     }
-    @media (min-width: @screen-tb-min) {
+    @media (min-width: 360px) {
         background: url(/images/temp/warranty-bg.png) center 0 no-repeat;
+        background-size: 285%;
+        background-position-x: -441px;
+    }
+    @media (min-width: 568px) {
+        background: url(/images/temp/warranty-bg.png) center 0 no-repeat;
+        background-size: 182%;
+        background-position-x: -285px;
     }
     @media (min-width: @screen-sm-min) {
         min-height: 327px;
+        background-position-x: -193px;
+        background-size: 130%;
         &__container {
             text-align: left;
             padding: 16px 15px 0;
@@ -1030,6 +1057,8 @@
     }
     @media (min-width: @screen-md-min) {
         min-height: 440px;
+        background-size: 135%;
+        background-position-x: -322px;
         &__container {
             padding: 21px 0 0;
         }
@@ -1047,6 +1076,10 @@
         &__img img {
             max-width: 250px;
         }
+    }
+    @media (min-width: 1200px) {
+        background-size: 113%;
+        background-position-x: -152px;
     }
 }
 
@@ -2939,12 +2972,14 @@ p.italic-style {
         border-bottom: 1px solid #f1f1f1;
         border-top: 1px solid #dadada;
         border-right: 1px solid #dadada;
-        font-size: 13px;
+        font-size: 16px;
+        height: 43px;
     }
 @media (min-width: 992px) {
     #main-nav ul.main-level li ul.sub-level li a {
-        padding-left: 12px;
-        font-size: 12px;
+        padding-left: 21px;
+        font-size: 15px;
+        width: 250px;
     }
 }
 @media (min-width: 1200px) {
@@ -2953,8 +2988,8 @@ p.italic-style {
         width: 100%;
         background: #eee;
         border-bottom: 1px solid #d6d6d6;
-        padding: 3px 15px;
-        font-size: 15px;
+        padding: 3px 22px;
+        font-size: 18px;
     }
 }
 .owl-carousel .owl-item {
@@ -3010,5 +3045,20 @@ p.italic-style {
         background-size: 114%;
         background-position-y: 0px;
         background-position-x: 0px;
+    }
+}
+.download-pdf {
+    a {
+        .hCondensed();
+        font-weight: 900;
+        color: #e31937;
+        letter-spacing: -.02em;
+    }
+}
+.container-fluid.landscaper {
+    @media (max-width: 599px) {
+        max-height: 303px;
+        position: relative;
+        top: -45px;
     }
 }
