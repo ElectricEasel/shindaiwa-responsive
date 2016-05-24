@@ -103,9 +103,10 @@
 											</div>
 										</div>
 									</div>
-									<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=9vE_idtfNVw"></a>
+									<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=9vE_idtfNVw">
+										<img src="/images/temp/speed_feed_thumbnail.jpg"/>
+									</a>
 									<div class="video-wrap"></div>
-									<div class="youtube__name">Speed-Feed Overview</div>
 								</div>
 							</div>
 						</div>

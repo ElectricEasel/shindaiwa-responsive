@@ -263,9 +263,10 @@
 												</div>
 											</div>
 										</div>
-										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4"></a>
+										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4">
+											<img src="/images/temp/product_family_video1.jpg"/>
+										</a>
 										<div class="video-wrap"></div>
-										<div class="youtube__name">Clearing Yard Debris with Shindaiwa</div>
 									</div>
 								</div>
 							</div>
@@ -284,9 +285,10 @@
 												</div>
 											</div>
 										</div>
-										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=pNupuo5ss4k"></a>
+										<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=pNupuo5ss4k">
+											<img src="/images/temp/product_family_video2.jpg"/>
+										</a>
 										<div class="video-wrap"></div>
-										<div class="youtube__name">Speed-Feed Head Demonstration</div>
 									</div>
 								</div>
 							</div>

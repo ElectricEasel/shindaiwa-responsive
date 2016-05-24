@@ -45,7 +45,9 @@
 											</div>
 										</div>
 									</div>
-									<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4"></a>
+									<a href="#" class="youtube_link" data-link="https://www.youtube.com/watch?v=6fxpOb08qa4">
+										<img src="/images/temp/video_library_thumbnail.jpg"/>
+									</a>
 									<div class="video-wrap"></div>
 								</div>
 								<div class="video-library__main-name">

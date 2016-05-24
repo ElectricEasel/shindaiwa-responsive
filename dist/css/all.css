@@ -7552,7 +7552,7 @@ p {
 }
 @media (max-width: 1199px) and (min-width: 992px) {
   #main-nav ul.main-level li {
-    padding-right: 0;
+    padding-right: 26px;
     padding-left: 12px;
   }
   #main-nav ul.main-level li a {
@@ -7671,9 +7671,10 @@ p {
   #main-nav ul.main-level {
     padding: 5px 15px 3px;
     margin: 0 auto;
+    text-align: center;
   }
-  #main-nav ul.main-level li {
-    padding: 0 22px;
+  #main-nav ul.main-level ul {
+    text-align: left;
   }
   #main-nav .parent-link,
   #main-nav a {
@@ -7684,6 +7685,8 @@ p {
     text-transform: uppercase;
     color: #ffffff;
     text-shadow: none;
+    display: inline-block;
+    padding: 0 4px;
   }
   #main-nav .parent-link.active,
   #main-nav a.active {
@@ -8892,7 +8895,8 @@ yx-axis
 }
 @media (min-width: 992px) {
   .banner-above {
-    min-height: 588px;
+    min-height: 509px;
+    background-position-x: -144px;
   }
   .banner-above__title {
     font-size: 65px;
@@ -8910,6 +8914,19 @@ yx-axis
   .banner-above__text {
     max-width: 905px;
     top: 126px;
+    float: right;
+    right: -166px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner-above {
+    background-position: 0px;
+  }
+  .banner-above__text {
+    max-width: 905px;
+    top: 126px;
+    float: right;
+    right: -106px;
   }
 }
 .small-banners {
@@ -13531,6 +13548,8 @@ p.italic-style {
     padding-left: 21px;
     font-size: 15px;
     width: 250px;
+    padding: 11px 22px;
+    height: auto;
   }
 }
 @media (min-width: 1200px) {
@@ -13539,7 +13558,6 @@ p.italic-style {
     width: 100%;
     background: #eee;
     border-bottom: 1px solid #d6d6d6;
-    padding: 3px 22px;
     font-size: 18px;
   }
 }
@@ -13622,9 +13640,19 @@ p.italic-style {
     top: -45px;
   }
 }
-.youtube_link.has-image a {
-  background-image: url(/images/temp/speed_feed_thumbnail.jpg);
+.video-one .youtube_link {
+  background: none;
 }
-.youtube .youtube_link img {
-  background-image: url(/images/temp/speed_feed_thumbnail.jpg);
+@media (max-width: 991px) {
+  .video-one .btn_play .icon {
+    position: relative;
+    bottom: 33px;
+  }
+}
+#main-nav ul.main-level li ul.sub-level li a:hover {
+  background: #dedede;
+  border-bottom: 5px solid #e31937;
+}
+#main-nav .container {
+  max-width: 1400px;
 }

@@ -22,6 +22,7 @@
 			margin:33,
 			nav:false,
 			dots: false,
+			loop: true,
 			responsive:{
 				0:{
 					items:1
@@ -107,18 +108,18 @@
 			$(this).html('');
 		});
 
-		// upload image by youtube link
-		function eachYoutubeLink() {
-			$('.youtube_link').each(function(){
-				if ($(this).html().length > 0) {
-					return true;
-				}
-				var id = getYoutubeID( $(this).data('link'));
-				var thumb_url = "http://i.ytimg.com/vi/"+id+"/hqdefault.jpg";
-				$(this).addClass('has-image');
-				$('<img src="'+thumb_url+'" />').appendTo($(this));
-			});
-		}
+		// // upload image by youtube link
+		// function eachYoutubeLink() {
+		// 	$('.youtube_link').each(function(){
+		// 		if ($(this).html().length > 0) {
+		// 			return true;
+		// 		}
+		// 		var id = getYoutubeID( $(this).data('link'));
+		// 		var thumb_url = "http://i.ytimg.com/vi/"+id+"/hqdefault.jpg";
+		// 		$(this).addClass('has-image');
+		// 		$('<img src="'+thumb_url+'" />').appendTo($(this));
+		// 	});
+		// }
 
 		//get youtube id by link
 		function getYoutubeID(url) {
