@@ -24,9 +24,9 @@
 		<div id="content-container">
 			<main id="content">
 
-				<div class="container-fluid dark-triangle text-uppercase text-center">
+				<div class="container-fluid dark-triangle2 text-uppercase text-center">
 					<div class="container">
-						<div class="row dark-triangle__text">
+						<div class="row dark-triangle2__text2">
 							Introducing the first fleet discount program
 							<span>dedicated to arborists.</span>
 						</div>

@@ -8764,6 +8764,9 @@ yx-axis
     height: 500px;
   }
 }
+.body {
+  overflow: hidden;
+}
 .vcenter {
   vertical-align: middle;
 }
@@ -8825,6 +8828,7 @@ yx-axis
   background: url(/images/temp/banner_image_tablet.jpg) 0 -1px no-repeat;
   background-size: cover;
   border-bottom: 5px solid #000000;
+  overflow: hidden;
   margin: 0 0 28px;
 }
 .banner-above__text {
@@ -9265,12 +9269,13 @@ yx-axis
 }
 .lp-banner {
   position: relative;
+  overflow: visible;
   background-size: cover;
   border-bottom: 26px solid #109a49;
   background-size: 100%;
-  background-size: 294%;
-  background-position-x: -451px;
-  background-image: url(/images/temp/lp-banner-bg.png);
+  background-size: 121%;
+  background-position-x: -70px;
+  background-image: url(/images/temp/arborist_background_mobile.jpg);
 }
 .lp-banner--red {
   border-color: #ca2030;
@@ -9281,20 +9286,37 @@ yx-axis
 }
 .lp-banner__bottom-img {
   position: absolute;
-  bottom: -57px;
+  bottom: -31px;
   width: 100%;
   text-align: center;
-  overflow: hidden;
 }
 .lp-banner__bottom-img img {
   max-width: 600px;
   margin: 0 0 0 -56px;
+}
+.lp-banner .lp-banner__bottom-img-two.landscaper {
+  position: absolute;
+  width: 810px;
+  left: -34px;
+  bottom: -68px;
+}
+@media (min-width: 768px) {
+  .lp-banner .lp-banner__bottom-img-two.landscaper {
+    width: 107%;
+  }
+}
+@media (min-width: 1200px) {
+  .lp-banner .lp-banner__bottom-img-two.landscaper {
+    width: 107%;
+    left: -7px;
+  }
 }
 @media (min-width: 768px) {
   .lp-banner {
     margin: 0 0 29px;
     background-size: 120%;
     background-position-x: -135px;
+    background-image: url(/images/temp/lp-banner-bg.png);
   }
   .lp-banner__center-img {
     max-width: 285px;
@@ -9310,6 +9332,7 @@ yx-axis
     min-height: 575px;
     background-size: 138%;
     background-position-x: -308px;
+    background-image: url(/images/temp/lp-banner-bg.png);
   }
   .lp-banner__center-img {
     max-width: 400px;
@@ -9323,9 +9346,10 @@ yx-axis
   .lp-banner {
     background-size: 114%;
     background-position-x: -160px;
+    background-image: url(/images/temp/lp-banner-bg.png);
   }
 }
-.dark-triangle {
+.dark-triangle1 {
   background: url(/images/temp/triangle-black-bg.png) center -61px no-repeat;
   color: #ffffff;
   font-family: 'HCondensed', sans-serif;
@@ -9335,54 +9359,164 @@ yx-axis
   padding: 44px 15px 22px;
   min-height: 239px;
 }
-.dark-triangle__text {
+.dark-triangle1__text1 {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 55px;
   line-height: 35px;
   position: relative;
-  top: 38px;
+  top: 14px;
 }
-@media (max-width: 767px) {
-  .dark-triangle__text {
+@media (max-width: 1199px) {
+  .dark-triangle1__text1 {
     position: relative;
-    top: 14px;
+    top: 18px;
+    font-size: 36px;
+    line-height: 35px;
   }
 }
-.dark-triangle__text span {
+@media (max-width: 767px) {
+  .dark-triangle1__text1 {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+  }
+}
+.dark-triangle1__text1 span {
   display: block;
   font-family: 'HCondensedHeavy', sans-serif;
-  font-size: 36px;
+  font-size: 72px;
   line-height: 38px;
-  margin: 2px 0 0;
+  margin: 37px 0 0;
+}
+@media (max-width: 1199px) {
+  .dark-triangle1__text1 span {
+    line-height: 38px;
+    font-size: 50px;
+    margin: 17px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .dark-triangle1__text1 span {
+    top: -10px;
+    font-size: 42px;
+    line-height: 1em;
+    position: relative;
+  }
 }
 @media (min-width: 768px) {
-  .dark-triangle {
-    background-position: center -62px;
+  .dark-triangle1 {
+    background-position: center -93px;
     font-weight: 500;
     margin: -30px auto 6px;
     padding: 24px 21px 40px;
-    min-height: 229px;
+    min-height: 193px;
   }
-  .dark-triangle__text {
+  .dark-triangle1__text {
     font-size: 35px;
     line-height: 51px;
   }
-  .dark-triangle__text span {
+  .dark-triangle1__text span {
     font-size: 49px;
     line-height: 51px;
   }
 }
 @media (min-width: 1200px) {
-  .dark-triangle {
+  .dark-triangle1 {
     background-position: center -50px;
     min-height: 234px;
     padding: 30px 15px;
   }
-  .dark-triangle__text {
+  .dark-triangle1__text {
     font-size: 50px;
     line-height: 63px;
   }
-  .dark-triangle__text span {
+  .dark-triangle1__text span {
+    font-size: 67px;
+    line-height: 66px;
+  }
+}
+.dark-triangle2 {
+  background: url(/images/temp/triangle-black-bg.png) center -61px no-repeat;
+  color: #ffffff;
+  font-family: 'HCondensed', sans-serif;
+  font-weight: 400;
+  font-weight: 500;
+  margin: -29px auto 0;
+  padding: 44px 15px 22px;
+  min-height: 239px;
+}
+.dark-triangle2__text2 {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 35px;
+  position: relative;
+  top: 20px;
+}
+@media (max-width: 1199px) {
+  .dark-triangle2__text2 {
+    position: relative;
+    top: 18px;
+    font-size: 36px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .dark-triangle2__text2 {
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+  }
+}
+.dark-triangle2__text2 span {
+  display: block;
+  font-family: 'HCondensedHeavy', sans-serif;
+  font-size: 68px;
+  line-height: 38px;
+  margin: 35px 0 0;
+}
+@media (max-width: 1199px) {
+  .dark-triangle2__text2 span {
+    line-height: 38px;
+    font-size: 50px;
+    margin: 17px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .dark-triangle2__text2 span {
+    top: -10px;
+    font-size: 42px;
+    line-height: 1em;
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  .dark-triangle2 {
+    background-position: center -93px;
+    font-weight: 500;
+    margin: -30px auto 6px;
+    padding: 24px 21px 40px;
+    min-height: 193px;
+  }
+  .dark-triangle2__text {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .dark-triangle2__text span {
+    font-size: 49px;
+    line-height: 51px;
+  }
+}
+@media (min-width: 1200px) {
+  .dark-triangle2 {
+    background-position: center -36px;
+    min-height: 252px;
+    padding: 30px 15px;
+  }
+  .dark-triangle2__text {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .dark-triangle2__text span {
     font-size: 67px;
     line-height: 66px;
   }
@@ -13449,7 +13583,7 @@ p.italic-style {
 }
 @media (min-width: 525px) {
   .lp-banner.lp-banner--red {
-    background-size: 175%;
+    background-size: 188%;
   }
 }
 @media (min-width: 768px) {
@@ -13487,4 +13621,10 @@ p.italic-style {
     position: relative;
     top: -45px;
   }
+}
+.youtube_link.has-image a {
+  background-image: url(/images/temp/speed_feed_thumbnail.jpg);
+}
+.youtube .youtube_link img {
+  background-image: url(/images/temp/speed_feed_thumbnail.jpg);
 }

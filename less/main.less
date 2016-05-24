@@ -10,6 +10,9 @@
 @import "modal.less";
 
 // basic elements begin ***************************************
+.body {
+    overflow: hidden;
+}
 .vcenter {
     vertical-align: middle;
 }
@@ -77,6 +80,7 @@
     background: url(/images/temp/banner_image_tablet.jpg) 0 -1px no-repeat;
     background-size: cover;
     border-bottom: 5px solid @black;
+    overflow: hidden;
     margin: 0 0 28px;
     &__text {
         position: absolute;
@@ -522,12 +526,13 @@
 
 .lp-banner {
     position: relative;
+    overflow: visible;
     background-size: cover;
     border-bottom: 26px solid @green-light;
     background-size: 100%;
-    background-size: 294%;
-    background-position-x: -451px;
-    background-image: url(/images/temp/lp-banner-bg.png);
+    background-size: 121%;
+    background-position-x: -70px;
+    background-image: url(/images/temp/arborist_background_mobile.jpg);
     &--red {
         border-color: @red-middle;
     }
@@ -537,19 +542,32 @@
     }
     &__bottom-img {
         position: absolute;
-        bottom: -57px;
+        bottom: -31px;
         width: 100%;
         text-align: center;
-        overflow: hidden;
         img {
             max-width: 600px;
             margin: 0 0 0 -56px;
+        }
+    }
+    .lp-banner__bottom-img-two.landscaper {
+        position: absolute;
+        width: 810px;
+        left: -34px;
+        bottom: -68px;
+        @media (min-width: 768px) {
+            width: 107%;
+        }
+        @media (min-width: 1200px) {
+            width: 107%;
+            left: -7px;
         }
     }
     @media (min-width: @screen-sm-min) {
         margin: 0 0 29px;
         background-size: 120%;
         background-position-x: -135px;
+        background-image: url(/images/temp/lp-banner-bg.png);
         &__center-img {
             max-width: 285px;
             margin: 35px auto 0;
@@ -565,6 +583,7 @@
         min-height: 575px;
         background-size: 138%;
         background-position-x: -308px;
+        background-image: url(/images/temp/lp-banner-bg.png);
         &__center-img {
             max-width: 400px;
             margin: 25px auto 0;
@@ -576,10 +595,11 @@
     @media (min-width: 1200px) {
         background-size: 114%;
         background-position-x: -160px;
+        background-image: url(/images/temp/lp-banner-bg.png);
     }
 }
 
-.dark-triangle {
+.dark-triangle1 {
     background: url(/images/temp/triangle-black-bg.png) center -61px no-repeat;
     color: @white;
     .hCondensed();
@@ -587,30 +607,48 @@
     margin: -29px auto 0;
     padding: 44px 15px 22px;
     min-height: 239px;
-    &__text {
+    &__text1 {
         font-weight: 500;
-        font-size: 28px;
+        font-size: 55px;
         line-height: 35px;
         position: relative;
-        top: 38px;
+        top: 14px;
+        @media (max-width: 1199px) {
+            position: relative;
+            top: 18px;
+            font-size: 36px;
+            line-height: 35px;
+        }
         @media (max-width: 767px) {
             position: relative;
-            top: 14px;
+            top: 20px;
+            font-size: 30px;
         }
         span {
             display: block;
             .hCondensedHeavy();
-            font-size: 36px;
+            font-size: 72px;
             line-height: 38px;
-            margin: 2px 0 0;
+            margin: 37px 0 0;
+            @media (max-width: 1199px) {
+                line-height: 38px;
+                font-size: 50px;
+                margin: 17px 0 0;
+            }
+            @media (max-width: 767px) {
+                top: -10px;
+                font-size: 42px;
+                line-height: 1em;
+                position: relative;
+            }
         }
     }
     @media (min-width: @screen-sm-min) {
-        background-position: center -62px;
+        background-position: center -93px;
         font-weight: 500;
         margin: -30px auto 6px;
         padding: 24px 21px 40px;
-        min-height: 229px;
+        min-height: 193px;
         &__text {
             font-size: 35px;
             line-height: 51px;
@@ -623,6 +661,79 @@
     @media (min-width: @screen-lg-min) {
         background-position: center -50px;
         min-height: 234px;
+        padding: 30px 15px;
+        &__text {
+            font-size: 50px;
+            line-height: 63px;
+                span {
+                font-size: 67px;
+                line-height: 66px;
+            }
+        }
+    }
+}
+.dark-triangle2 {
+    background: url(/images/temp/triangle-black-bg.png) center -61px no-repeat;
+    color: @white;
+    .hCondensed();
+    font-weight: 500;
+    margin: -29px auto 0;
+    padding: 44px 15px 22px;
+    min-height: 239px;
+    &__text2 {
+        font-weight: 500;
+        font-size: 53px;
+        line-height: 35px;
+        position: relative;
+        top: 20px;
+        @media (max-width: 1199px) {
+            position: relative;
+            top: 18px;
+            font-size: 36px;
+            line-height: 35px;
+        }
+        @media (max-width: 767px) {
+            position: relative;
+            top: -10px;
+            font-size: 30px;
+        }
+        span {
+            display: block;
+            .hCondensedHeavy();
+            font-size: 68px;
+            line-height: 38px;
+            margin: 35px 0 0;
+            @media (max-width: 1199px) {
+                line-height: 38px;
+                font-size: 50px;
+                margin: 17px 0 0;
+            }
+            @media (max-width: 767px) {
+                top: -10px;
+                font-size: 42px;
+                line-height: 1em;
+                position: relative;
+            }
+        }
+    }
+    @media (min-width: @screen-sm-min) {
+        background-position: center -93px;
+        font-weight: 500;
+        margin: -30px auto 6px;
+        padding: 24px 21px 40px;
+        min-height: 193px;
+        &__text {
+            font-size: 35px;
+            line-height: 51px;
+            span {
+                font-size: 49px;
+                line-height: 51px;
+            }
+        }
+    }
+    @media (min-width: @screen-lg-min) {
+        background-position: center -36px;
+        min-height: 252px;
         padding: 30px 15px;
         &__text {
             font-size: 50px;
@@ -3028,7 +3139,7 @@ p.italic-style {
     height: 394px;
     background-size: 271%;
     @media (min-width: 525px) {
-        background-size: 175%;
+        background-size: 188%;
     }
     @media (min-width: 768px) {
         background-size: 121%;
@@ -3060,5 +3171,17 @@ p.italic-style {
         max-height: 303px;
         position: relative;
         top: -45px;
+    }
+}
+
+.youtube_link.has-image {
+    a {
+    background-image: url(/images/temp/speed_feed_thumbnail.jpg);
+    }
+}
+
+.youtube .youtube_link {
+    img {
+        background-image: url(/images/temp/speed_feed_thumbnail.jpg);
     }
 }

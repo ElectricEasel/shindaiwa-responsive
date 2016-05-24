@@ -16,7 +16,7 @@
 					<img src="/images/temp/lp-banner-center-img2.png" title="" alt="">
 				</div>
 			</div>
-			<div class="lp-banner__bottom-img landscaper">
+			<div class="lp-banner__bottom-img-two landscaper">
 				<img src="/images/temp/lp-banner-bottom-img2.png" title="" alt="">
 			</div>
 		</div>
@@ -24,9 +24,9 @@
 		<div id="content-container">
 			<main id="content">
 
-				<div class="container-fluid dark-triangle text-uppercase text-center">
+				<div class="container-fluid dark-triangle1 text-uppercase text-center">
 					<div class="container">
-						<div class="row dark-triangle__text">
+						<div class="row dark-triangle1__text1">
 							the best fleet program
 							<span>dedicated to landscapers.</span>
 						</div>
