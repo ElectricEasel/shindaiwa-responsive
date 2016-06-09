@@ -104,6 +104,12 @@
 												<li>
 													<img src="images/temp/det_prod_img1.jpg" alt="">
 												</li>
+												<li>
+													<img src="images/temp/det_prod_img2.jpg" alt="">
+												</li>
+												<li>
+													<img src="images/temp/det_prod_img3.jpg" alt="">
+												</li>
 											</ul>
 										</div>
 										<div class="det_prod__pagin_images clearfix">

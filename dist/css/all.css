@@ -8828,12 +8828,12 @@ yx-axis
 .banner-above {
   border-bottom: 5px solid #000000;
 }
-@media (max-width: 545px) {
+@media (max-width: 479px) {
   .banner-above img.main-banner {
     display: none;
   }
 }
-@media (min-width: 546px) {
+@media (min-width: 480px) {
   .banner-above img.main-banner-mobile {
     display: none;
   }
