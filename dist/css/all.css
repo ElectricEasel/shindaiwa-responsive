@@ -13571,7 +13571,3 @@ p.italic-style {
 #main-nav .container {
   max-width: 1400px;
 }
-#main-nav ul.main-level li ul.sub-level {
-  overflow: auto;
-  max-height: 264px;
-}
