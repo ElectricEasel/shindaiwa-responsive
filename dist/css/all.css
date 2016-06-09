@@ -8825,109 +8825,21 @@ yx-axis
 .one-radio input[type="radio"]:checked + label:before {
   background-position: -49px -427px;
 }
-.banner-above {
-  position: relative;
-  min-height: 409px;
-  background: url(/images/temp/banner_image_tablet.jpg) 0 -1px no-repeat;
-  background-size: cover;
-  border-bottom: 5px solid #000000;
-  overflow: hidden;
-  margin: 0 0 28px;
-}
-.banner-above__text {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0px;
-}
-.banner-above__title {
-  font-family: 'eurostileBoldCond', sans-serif;
-  color: #e31937;
-  font-size: 35px;
-  line-height: 45px;
-}
-.banner-above__subtitle {
-  font-family: 'eurostileBoldCond', sans-serif;
-  color: #e31937;
-  font-size: 35px;
-  line-height: 45px;
-}
-.banner-above__subtitle {
-  font-size: 61px;
-  line-height: 38px;
-  position: relative;
-  top: 5px;
-}
-.banner-above__desc {
-  font-size: 28px;
-  line-height: 36px;
-  font-family: 'eurostileBoldCond', sans-serif;
-  color: #000000;
-  margin: 5px 0 0;
-  position: relative;
-  top: 5px;
-}
-@media (min-width: 768px) {
-  .banner-above {
-    background: url(/images/temp/main-banner.png) 0 0 no-repeat;
-    background-size: cover;
-    min-height: 396px;
-    margin: 0 0 30px;
-  }
-  .banner-above__text {
-    left: inherit;
-    top: 58px;
-    bottom: inherit;
-    max-width: 450px;
-  }
-  .banner-above__title {
-    font-size: 46px;
-    line-height: 59px;
-  }
-  .banner-above__subtitle {
-    font-size: 72px;
-    line-height: 49px;
-  }
-  .banner-above__desc {
-    font-size: 36px;
-    line-height: 46px;
+@media (max-width: 545px) {
+  .banner-above img.main-banner {
+    display: none;
   }
 }
-@media (min-width: 992px) {
-  .banner-above {
-    min-height: 509px;
-    background-position-x: -144px;
-  }
-  .banner-above__title {
-    font-size: 65px;
-    line-height: 69px;
-    margin: 0 0 5px;
-  }
-  .banner-above__subtitle {
-    font-size: 109px;
-    line-height: 87px;
-  }
-  .banner-above__desc {
-    font-size: 56px;
-    line-height: 70px;
-  }
-  .banner-above__text {
-    max-width: 905px;
-    top: 126px;
-    float: right;
-    right: -166px;
+@media (min-width: 546px) {
+  .banner-above img.main-banner-mobile {
+    display: none;
   }
 }
-@media (min-width: 1200px) {
-  .banner-above {
-    background-position: 0px;
-  }
-  .banner-above__text {
-    max-width: 905px;
-    top: 126px;
-    float: right;
-    right: -106px;
-  }
+img.main-banner-mobile {
+  width: 100%;
+}
+.main-banner-description {
+  display: none;
 }
 .small-banners {
   padding: 0 0 25px;

@@ -10,12 +10,10 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-above" >
-			<div class="container banner-above__text text-center text-uppercase">
-				<h1 class="banner-above__title">Shindaiwa</h1>
-				<h2 class="banner-above__subtitle">Chain saws</h2>
-				<div class="banner-above__desc">Perfect for every job</div>
-			</div>
+		<div class="banner-above">
+			<img src="/images/temp/main-banner.jpg" class="main-banner">
+			<img src="/images/temp/main-banner-description.png" class="main-banner-description">
+			<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
 		</div>
 
 		<div id="content-container">
