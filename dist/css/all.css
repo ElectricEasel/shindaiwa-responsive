@@ -8825,6 +8825,9 @@ yx-axis
 .one-radio input[type="radio"]:checked + label:before {
   background-position: -49px -427px;
 }
+.banner-above {
+  border-bottom: 5px solid #000000;
+}
 @media (max-width: 545px) {
   .banner-above img.main-banner {
     display: none;
@@ -8842,7 +8845,7 @@ img.main-banner-mobile {
   display: none;
 }
 .small-banners {
-  padding: 0 0 25px;
+  padding: 25px 0 25px;
 }
 .small-banners__item {
   position: relative;
