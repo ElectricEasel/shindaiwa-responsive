@@ -93,7 +93,7 @@
 									<div class="affiliation acf">
 										<div class="logo"><img src="images/temp/affil-acf.png" alt="ACF" /></div>
 										<h4><a href="">Association of Consulting Foresters</a></h4>
-										<p>ACT is comprised of independent forestry professionals across the country who manage forests and market forest products for private landowners. The association allows these professionals to share their experience and expertise with each other, and disseminate new knowledge and skills in the industry. The designation of ACF is a way for landowners to identify consulting foresters with proven ability and character.</p>
+										<p>ACF is comprised of independent forestry professionals across the country who manage forests and market forest products for private landowners. The association allows these professionals to share their experience and expertise with each other, and disseminate new knowledge and skills in the industry. The designation of ACF is a way for landowners to identify consulting foresters with proven ability and character.</p>
 									</div>
 									<div class="affiliation isa">
 										<div class="logo"><img src="images/temp/affil-isa.png" alt="ISA" /></div>
