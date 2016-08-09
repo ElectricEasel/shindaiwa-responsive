@@ -136,8 +136,8 @@
 
 				<div class="affiliates-bar">
 					<div class="container">
-						<a href="/affiliates.php" class="viewall hide-small">View All</a>
 						<h4>Proud Affiliates Of:</h4>
+						<a href="/affiliates.php" class="viewall hide-small">View All</a>
 						<ul>
 							<li class="nhla"><img src="images/temp/affil-nhla.png" alt="NHLA"></li>
 							<li class="nalp"><img src="images/temp/affil-nalp.png" alt="NALP"></li>
