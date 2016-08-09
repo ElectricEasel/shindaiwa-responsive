@@ -3251,6 +3251,12 @@ p.italic-style {
     text-align: center;
     height: 506px;
 
+    @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+        height: 307px;
+    }
+    @media (max-width:@screen-tb-max) {
+        height: auto;
+    }
     .slideshow-wrap {
         max-width: 1050px;
         width: 100%;
@@ -3258,13 +3264,8 @@ p.italic-style {
         margin: 0 auto;
         position: relative;
 
-        @media (max-width:@screen-md-max) and (min-width:@screen-md-min) {
-            max-width: 970px;
-        }
-        @media (max-width:@screen-sm-max) {
-            max-width: 750px;
-            padding-left: 15px;
-            padding-right: 15px;
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            max-width: 700px;
         }
         @media (max-width:@screen-tb-max) {
             padding-left: 30px;
@@ -3279,7 +3280,6 @@ p.italic-style {
         box-sizing: content-box;
         cursor: -moz-grab;
         cursor: -webkit-grab;
-        margin: 30px 0;
         .transition(all 0.2s linear);
 
         .frame {
@@ -3292,35 +3292,54 @@ p.italic-style {
                 overflow: hidden;
                 background: @black;
             }
-            img {
-                .opacity(0.5);
-            }
             .btn {
                 position: absolute;
-                bottom: 0;
                 left: 0;
-                width: 100%;
-                border: none;
-                border-radius: 0;
-                .opacity(0.6);
+                bottom: 15px;
+                width: 90%;
+                margin: 0 5%;
             }
         }
-        &.center {
-            width: 360px;
-            margin: 0;
+        @media (min-width:@screen-sm-min) {
+            margin: 30px 0;
             .frame {
-                width: 100%;
                 img {
-                    .opacity(1);
+                    .opacity(0.5);
                 }
                 .btn {
-                    bottom: 15px;
-                    width: 90%;
-                    margin: 0 5%;
-                    border-radius: 4px;
-                    border: 1px solid transparent;
-                    .opacity(1);
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    margin: 0;
+                    border: none;
+                    border-radius: 0;
+                    .opacity(0.6);
                 }
+            }
+            &.center {
+                width: 360px;
+                margin: 0;
+                .frame {
+                    width: 100%;
+                    img {
+                        .opacity(1);
+                    }
+                    .btn {
+                        bottom: 15px;
+                        width: 90%;
+                        margin: 0 5%;
+                        border-radius: 4px;
+                        border: 1px solid transparent;
+                        .opacity(1);
+                    }
+                }
+            }
+        }
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            width: 205px;
+            margin: 20px 0;
+            &.center {
+                width: 245px;
             }
         }
     }
@@ -3378,6 +3397,9 @@ p.italic-style {
 
     .heading {
         .opacity(0.9);
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            width: 670px;
+        }
     }
     .dealer-desc {
         background: url(../images/temp/bg-black-shiny.jpg) center center no-repeat #000;
@@ -3393,7 +3415,7 @@ p.italic-style {
                 float: left;
                 clear: both;
                 width: 110px;
-                font-weight: normal;
+                font-weight: 400;
                 font-size: 18px;
                 text-transform: uppercase;
             }
@@ -3404,10 +3426,23 @@ p.italic-style {
                 text-transform: uppercase;
             }
         }
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            padding: 80px 0 15px;
+        }
+        @media (max-width:@screen-tb-max) {
+            padding-bottom: 15px;
+            dl dt, dl dd {
+                font-size: 16px;
+                margin-bottom:5px;
+            }
+        }
     }
 }
 .underhang {
     margin-top: -150px;
+    @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+        margin-top: -70px;
+    }
 }
 .stripe-speckled {
     height: 15px;
@@ -3418,8 +3453,11 @@ p.italic-style {
     }
 }
 .dealer-content {
-    background: url(../images/temp/bg-speckled.jpg) 0 0 no-repeat;
+    background: url(../images/temp/bg-speckled.jpg) 0 -350px no-repeat;
     padding: 0 0 50px;
+    @media (max-width:@screen-tb-max) {
+        padding-bottom: 10px;
+    }
     .down-tab {
         height: 70px;
         width: 400px;
@@ -3455,6 +3493,50 @@ p.italic-style {
             border-left-color: @red;
             right: -70px;
         }
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            height: 55px;
+            width: 316px;
+            padding: 0 55px;
+            img {
+                top: 18px;
+            }
+            .middle {
+                width: 206px;
+                height: 55px;
+            }
+            .left, .right {
+                border-width: 55px;
+                top: -55px;
+            }
+            .left {
+                left: -55px;
+            }
+            .right {
+                right: -55px;
+            }
+        }
+        @media (max-width:@screen-tb-max) {
+            height: 45px;
+            width: 250px;
+            padding: 0 45px;
+            img {
+                top: 13px;
+            }
+            .middle {
+                width: 160px;
+                height: 45px;
+            }
+            .left, .right {
+                border-width: 45px;
+                top: -45px;
+            }
+            .left {
+                left: -45px;
+            }
+            .right {
+                right: -45px;
+            }
+        }
     }
     .container {
         max-width: 1078px;
@@ -3465,10 +3547,20 @@ p.italic-style {
         text-transform: uppercase;
         color: @red;
         text-decoration: underline;
-        float: right;
         font-weight: 500;
         &:hover, &:focus {
             color: lighten(@red, 20%);
+        }
+        @media (min-width:@screen-sm-min) {
+            float: right;
+        }
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            margin-top: -20px;
+        }
+        @media (max-width:@screen-tb-max) {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
         }
     }
     h2 {
@@ -3480,6 +3572,16 @@ p.italic-style {
         strong {
             text-transform: uppercase;
             font-weight: 500;
+        }
+        @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+            font-size: 28px;
+        }
+        @media (max-width:@screen-tb-max) {
+            font-size: 24px;
+            margin-top: 25px;
+            strong {
+                display: block;
+            }
         }
     }
     .heading {
@@ -3507,6 +3609,24 @@ p.italic-style {
         clear: both;
         margin-right: 30px;
     }
+    @media (max-width:@screen-md-max) and (min-width:@screen-sm-min) {
+        .article-img-3 {
+            width: 250px;
+        }
+        .article-img-2 {
+            width: 226px;
+        }
+        .article-img-1 {
+            width: 315px;
+        }
+    }
+    @media (max-width:@screen-tb-max) {
+        .article-img-1, .article-img-2, .article-img-3 {
+            float: none;
+            dispaly: block;
+            margin: 0 auto 20px;
+        }
+    }
     p {
         margin-bottom: 20px;
         line-height: 1.7em;
@@ -3515,25 +3635,45 @@ p.italic-style {
     .buttons {
         margin-top: 85px;
         text-align: center;
+        
         .btn {
-            width: 350px;
-            height: 62px;
-            padding: 13px 0;
-            margin: 0 10px;
-            line-height: 31px;
-            vertical-align: middle;
-            font-size: 22px;
-            font-weight: 500;
-            &:before {
-                content: "";
-                display: inline-block;
-                height: 31px;
-                width: 21px;
-                background: url(../images/arrow-right-white.png) 0 0 no-repeat;
-                margin-right: 18px;
+            margin: 0 15px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        @media (min-width:@screen-md-min) {
+            .btn {
+                width: 350px;
+                height: 62px;
+                padding: 13px 0;
+                line-height: 31px;
                 vertical-align: middle;
-                position: relative;
-                top: -2px;
+                font-size: 22px;
+                font-weight: 500;
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    height: 31px;
+                    width: 21px;
+                    background: url(../images/arrow-right-white.png) 0 0 no-repeat;
+                    margin-right: 18px;
+                    vertical-align: middle;
+                    position: relative;
+                    top: -2px;
+                }
+            }
+        }
+        @media (max-width:@screen-sm-max) and (min-width:@screen-sm-min) {
+            margin-top: 35px;
+            .btn {
+                width: 276px
+            }
+        }
+        @media (max-width:@screen-tb-max) {
+            margin-top: 25px;
+            .btn {
+                width: 100%;
+                margin: 0 0 20px;
             }
         }
     }

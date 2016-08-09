@@ -13,7 +13,8 @@
 		<div class="stripe-speckled"></div>
 		<div class="banner-above trusted-banner">
 			<div class="container">
-				<img class="heading" src="images/temp/title-trusted.png" alt="Buy From a Trusted Source" />
+				<img class="heading hide-desktop" src="images/temp/title-trusted-break.png" alt="Buy From a Trusted Source" />
+				<img class="heading hide-small" src="images/temp/title-trusted.png" alt="Buy From a Trusted Source" />
 				<div id="trusted-heading">
 	                <div class="slideshow-wrap">
 	                <div id="trusted-carousel" class="owl-carousel">
@@ -78,12 +79,15 @@
 					<div class="container">
 						<a class="link-ad" href="#">View Our Ad</a>
 						<h2><strong>Trusted Dealer:</strong> Edward Kawamura</h2>
-						<img class="heading" src="images/temp/title-trusted-name.png" alt="What&rsquo;s in a name? Everything." />
-						<img class="main-img" src="images/temp/kawamura-main.jpg" alt="" />
-						<img class="article-img-3" src="images/temp/kawamura-3.png" alt="" />
+						<img class="heading hide-desktop" src="images/temp/title-trusted-name-break.png" alt="What&rsquo;s in a name? Everything." />
+						<img class="heading hide-small" src="images/temp/title-trusted-name.png" alt="What&rsquo;s in a name? Everything." />
+						<img class="main-img hide-desktop" src="images/temp/kawamura-main-mb.jpg" alt="" />
+						<img class="main-img hide-small" src="images/temp/kawamura-main.jpg" alt="" />
+						<img class="article-img-3 hide-small" src="images/temp/kawamura-3.png" alt="" />
 						<p>The history of M. Kawamura Farm Enterprises is so deep and colorful that it is almost easy to forget the dealership is located in the middle of paradise.</p>
 						<p>The dealership's story starts with Mac Kawamura, a Japanese-American who started his career as the herbicide and rodent supervisor at Hawaii's Lihu'e sugar plantation. Mac was so good at controlling rodents that he earned the nickname of "The Rodent Man" in the sugar industry.</p>
 						<p>Mac's entrepreneurial and innovative spirit led to his development of a special type of rat bait that he used in the sugar fields. He went on to patent that bait, and eventually started selling enough to the local plantations that he opened his own store, M. Kawamura Farm Enterprises, in 1961.</p>
+						<img class="article-img-3 hide-desktop" src="images/temp/kawamura-3.png" alt="" />
 						<p>A few years earlier, in 1958, Mac's son, Ed, graduated from high school and went off to join the U.S. Army. While stationed in Germany, Ed met his wife, Lily, with whom he had four children.</p>
 						<p>During his enlistment, Ed served one tour of duty in Vietnam, where he was responsible for seven radio communications sites. He went on to serve in the Army for 20 years, until his retirement in 1978.</p>
 						<img class="article-img-2" src="images/temp/kawamura-2.jpg" alt="" />
@@ -131,7 +135,7 @@
                         items:1,
                         margin:0
                     },
-                    992: {
+                    768: {
                         items:3,
                         margin:0
                     }
