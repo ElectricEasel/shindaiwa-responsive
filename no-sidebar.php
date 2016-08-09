@@ -136,7 +136,9 @@
 
 				<div class="affiliates-bar">
 					<div class="container">
-						<h4>Proud Affiliates Of:</h4>
+						<div class="shindaiwa__title">
+							Proud Affiliates Of:
+						</div>
 						<a href="/affiliates.php" class="viewall hide-small">View All</a>
 						<ul>
 							<li class="nhla"><img src="images/temp/affil-nhla.png" alt="NHLA"></li>
