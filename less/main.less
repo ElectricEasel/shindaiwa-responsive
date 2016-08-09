@@ -3815,9 +3815,17 @@ p.italic-style {
     @media (max-width:@screen-sm-max) and (min-width:@screen-sm-min) {
         ul {
             li {
-                margin: 0 4px;
+                margin: 0 5px;
                 img {
                     max-height: 40px;
+                }
+                &.isa {
+                    margin-right: 0;
+                }
+                &.eda {
+                    img {
+                        max-height: 39px;
+                    }
                 }
             }
         }
