@@ -3753,6 +3753,9 @@ p.italic-style {
         color: @red;
         line-height: 1.3em;
         
+        @media (max-width:@screen-md-max) and (min-width:@screen-md-min) {
+            font-size: 34px;
+        }
         @media (max-width:@screen-tb-max) {
             font-size: 30px;
         }
@@ -3763,6 +3766,7 @@ p.italic-style {
         text-decoration: underline;
         font-weight: 500;
         margin-top: 0;
+        margin-right: 24px;
         &:hover, &:focus {
             color: lighten(@red, 20%);
         }
@@ -3770,9 +3774,16 @@ p.italic-style {
             float: right;
             margin-top: -34px;
         }
+        @media (max-width:@screen-md-max) and (min-width:@screen-md-min) {
+            margin-right: 16px;
+        }
+        @media (max-width:@screen-sm-max) and (min-width:@screen-sm-min) {
+            margin-right: 11px;
+        }
         @media (max-width:@screen-tb-max) {
             display: block;
             text-align: center;
+            margin-right: 0;
         }
     }
     ul {
@@ -3784,12 +3795,22 @@ p.italic-style {
             margin: 0 15px;
         }
     }
+    @media (min-width:@screen-xl-min) {
+        ul {
+            li {
+                margin: 0 21px;
+                img {
+                    max-height: 65px;
+                }
+            }
+        }
+    }
     @media (max-width:@screen-lg-max) and (min-width:@screen-lg-min) {
         ul {
             li {
-                margin: 0 13px;
+                margin: 0 16px;
                 img {
-                    max-height: 60px;
+                    max-height: 55px;
                 }
             }
         }
