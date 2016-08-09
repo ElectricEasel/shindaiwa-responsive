@@ -139,14 +139,14 @@
 						<a href="/affiliates.php" class="viewall hide-small">View All</a>
 						<h4>Proud Affiliates Of:</h4>
 						<ul>
-							<li class="nhla"><img src="images/temp/affil-nhla" alt="NHLA"></li>
-							<li class="nalp"><img src="images/temp/affil-nalp" alt="NALP"></li>
-							<li class="acf"><img src="images/temp/affil-acf" alt="ACF"></li>
-							<li class="tcia"><img src="images/temp/affil-tcia" alt="TCIA"></li>
-							<li class="isa"><img src="images/temp/affil-isa" alt="ISA"></li>
-							<li class="eda"><img src="images/temp/affil-eda" alt="EDA"></li>
-							<li class="opei"><img src="images/temp/affil-opei" alt="OPEI"></li>
-							<li class="pgms"><img src="images/temp/affil-pgms" alt="pgms"></li>
+							<li class="nhla"><img src="images/temp/affil-nhla.png" alt="NHLA"></li>
+							<li class="nalp"><img src="images/temp/affil-nalp.png" alt="NALP"></li>
+							<li class="acf"><img src="images/temp/affil-acf.png" alt="ACF"></li>
+							<li class="tcia"><img src="images/temp/affil-tcia.png" alt="TCIA"></li>
+							<li class="isa"><img src="images/temp/affil-isa.png" alt="ISA"></li>
+							<li class="eda"><img src="images/temp/affil-eda.png" alt="EDA"></li>
+							<li class="opei"><img src="images/temp/affil-opei.png" alt="OPEI"></li>
+							<li class="pgms"><img src="images/temp/affil-pgms.png" alt="pgms"></li>
 						</ul>
 						<a href="/affiliates.php" class="viewall hide-desktop">View All</a>
 					</div>
