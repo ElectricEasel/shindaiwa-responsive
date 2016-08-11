@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/template.css?v=1457640509" type="text/css" />
 	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="/dist/css/all.css" type="text/css" />
+	<link rel="stylesheet" href="/css/main.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <!--	<script src="/media/jui/js/jquery.min.js?v=1455058415" type="text/javascript"></script>-->

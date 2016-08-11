@@ -10,10 +10,25 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-above">
-			<img src="/images/temp/main-banner.jpg" class="main-banner">
-			<img src="/images/temp/main-banner-description.png" class="main-banner-description">
-			<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+		<div class="banner-above carousel slide" id="home-carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+				<div class="item">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+				<div class="item">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+			</div>
+			<div class="controls">
+				<a class="left carousel-control" href="#home-carousel" data-slide="prev"><i></i></a>
+				<a class="right carousel-control" href="#home-carousel" data-slide="next"><i></i></a>
+			</div>
 		</div>
 
 		<div id="content-container">
@@ -160,5 +175,11 @@
 	</div>
 	<?php include 'footer.php' ?>
 </div>
+<script src="/js/jquery.bcSwipe.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$('#home-carousel').bcSwipe({ threshold: 50 });
+	})
+</script>
 </body>
 </html>
