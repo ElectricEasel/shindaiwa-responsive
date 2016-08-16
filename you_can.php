@@ -49,6 +49,9 @@
 			                            <li><strong>Genuine Shindaiwa replacement parts</strong> deliver high-performance results.</li>
 			                        </ul>
 			                    </div>
+			                    <div class="btn-wrap">
+			                    	<a class="btn btn-red" href="#">Download Spec Sheet</a>
+			                    </div>
 			                </div>
 
 			                <div id="spot-marketing">
@@ -210,7 +213,6 @@
 		                <div class="white-corner bottom right"></div>
 		            </div>
 		                <p><em><span>Maintenance intervals are recommendations. </span>Levels of use, conditions and experience will also impact frequency of replacement.</em></p>
-		                <a class="btn btn-red" href="#">Download Spec Sheet</a>
 		            </div>
 		        </div>
 
