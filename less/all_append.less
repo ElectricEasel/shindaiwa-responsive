@@ -469,27 +469,33 @@
             }
         }
         .white-corner {
-            background: url(/images/temp/white-corner-sprite.png) no-repeat;
+            background-image: url(/images/temp/white-corner-sprite.png);
+            background-repeat: no-repeat;
             display: block;
-            height: 13px;
-            width: 13px;
-            position: absolute;
 
             &.left {
                 left: 0;
-                background-position-x: 0;
             }
             &.right {
                 right: 0;
-                background-position-x: -13px;
             }
             &.top {
                 top: 0;
-                backgorund-position-y: 0;
             }
             &.bottom {
                 bottom: 0;
-                background-position-y: -13px;
+            }
+            &.left.top {
+                background-position: 0 0;
+            }
+            &.right.top {
+                background-position: -13px 0;
+            }
+            &.left.bottom {
+                background-position: 0 -13px;
+            }
+            &.right.bottom {
+                background-position: -13px -13px;
             }
         }
         p {
@@ -601,7 +607,8 @@
             }
         }
         .white-corner {
-            background: url(/images/white-corner-sprite.png) no-repeat;
+            background-image: url(/images/white-corner-sprite.png);
+            background-repeat: no-repeat;
             display: block;
             height: 13px;
             width: 13px;
@@ -609,19 +616,27 @@
 
             &.left {
                 left: 0;
-                background-position-x: 0;
             }
             &.right {
                 right: 0;
-                background-position-x: -13px;
             }
             &.top {
                 top: 0;
-                backgorund-position-y: 0;
             }
             &.bottom {
                 bottom: 0;
-                background-position-y: -13px;
+            }
+            &.left.top {
+                background-position: 0 0;
+            }
+            &.right.top {
+                background-position: -13px 0;
+            }
+            &.left.bottom {
+                background-position: 0 -13px;
+            }
+            &.right.bottom {
+                background-position: -13px -13px;
             }
         }
         p {
