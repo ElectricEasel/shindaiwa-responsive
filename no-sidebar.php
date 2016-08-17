@@ -178,6 +178,7 @@
 <script src="/js/jquery.bcSwipe.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($){
+		$('#home-carousel').carousel({ interval: 5000 });
 		$('#home-carousel').bcSwipe({ threshold: 50 });
 	})
 </script>
