@@ -1786,6 +1786,19 @@ img.main-banner-mobile {
 
 .goods-category {
     margin: 3px -15px 0;
+    td {
+        padding: 35px 0px;
+        img {
+            position: relative;
+            left: 95px;
+            @media (max-width: 1399px) {
+                left: 66px;
+            }
+            @media (max-width: 1199px) {
+                left: 0px;
+            }
+        }
+    }
     &__title {
         color: @white;
         font-size: 20px;
@@ -1832,11 +1845,16 @@ img.main-banner-mobile {
         }
     }
     &__text {
-        margin: 0 90px 0 0;
+        margin: -9px 68px 0 0;
         font-size: 17px;
         line-height: 21px;
         color: @black;
         padding: 0 10px 0 0;
+        @media (max-width: 1199px) {
+            margin: -9px 9px 0 0;
+            left: 30px;
+            position: relative;
+        }
     }
     &__item-title {
         color: @red;
@@ -3124,7 +3142,139 @@ p.italic-style {
 #main-nav .container {
     max-width: 1400px;
 }
-
-#main-nav ul.main-level li ul.sub-level {
-    
+.accessories-table {
+    tbody {
+        tr {
+            background: #f6f6f6;
+            font-family: 'HCondensed', sans-serif;
+            &:nth-child(odd) {
+                background: #e9e9e9;
+            }
+        }   
+    }
+    thead tr {
+        &:first-child {
+            background: #000;
+            color: #fff;
+        }
+    }
+    @media (max-width: 767px) {
+        td {
+            display: block;
+            position: relative;
+            margin: 0;
+            width: 100%;
+            bottom: auto;
+            padding: 20px 30px;
+        }
+        thead {
+            display: none;
+        }
+        tbody {
+            tr {
+                td {
+                    &:nth-child(1), &:nth-child(2) {
+                        float: left;
+                        width: 50%;
+                        .clearfix();
+                    }
+                    &:nth-child(3) {
+                        clear: both;
+                    }
+                }
+            }
+        }
+        .number-accessory {
+            &:before {
+                content: "PART NUMBER" !important;
+                display: block;
+            }
+        }
+        .goods-category__text {
+            margin: 0;
+            left: 0;
+        }
+        .goods-category__item-title {
+            &:before {
+                content: "DESCRIPTION" !important;
+                display: block;
+                color: #000;
+                margin-bottom: 1em;
+            }
+        }
+        .model-number-number {
+            position: relative;
+            margin: 0;
+            width: 100%;
+            &:before {
+                content: "MODEL NUMBER" !important;
+                display: block;
+                color: #000;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
+.part-number-accessory {
+    width: 140px;
+    padding: 10px 21px;
+}
+.image-accessory {
+    padding: 10px 120px;
+    @media (max-width: 1399px) {
+        padding: 10px 92px;
+    }
+    @media (max-width: 1199px) {
+        padding: 10px 31px;
+    }
+}
+.description-accessory {
+    @media (max-width: 1199px) {
+        position: relative;
+        left: 28px;
+    }
+}
+.model-accessory {
+    width: 144px;
+    position: relative;
+    left: -80px;
+    @media (max-width: 1199px) {
+        left: -28px;
+    }
+}
+.number-accessory {
+    font-weight: 900;
+    position: absolute;
+    margin-left: 22px;
+    margin-top: -16px;
+}
+.image-1-category {
+    position: relative;
+    bottom: 32px;
+    @media (max-width: 1399px) {
+        bottom: 55px;
+    }
+    @media (max-width: 1199px) {
+        bottom: 32px;
+    }
+}
+.image-2-category {
+    position: relative;
+}
+.image-3-category {
+    position: relative;
+    left: 9px;
+}
+td.model-number-number {
+    font-weight: 900;
+    position: absolute;
+    margin-left: -79px;
+    margin-top: -16px;
+    width: 147px;
+    @media (max-width: 1199px) {
+        margin-left: -27px;
+    }
+}
+.goods-category__item-title.text-uppercase {
+    padding-bottom: 10px;
 }

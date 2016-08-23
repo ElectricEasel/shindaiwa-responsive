@@ -86,6 +86,7 @@
 										</ul>
 									</li>
 									<li><a href="#">Red Armor Oil</a></li>
+									<li><a href="#">Catalog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -104,223 +105,265 @@
 									<span class="icon-toggle visble-xs"></span>
 								</div>
 								<div class="goods-category__items active">
-									<div class="goods-category__item clearfix">
-
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image1.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												9-inch, 4 tooth Steel Blade
-											</div>
-											<div class="goods-category__item-desc">
-												<p>
-													Knockout lets blades fit 20 mm or 1 inch arbors.  Fits all blade-capable Shindaiwa straight shaft units.
-												</p>
-												<p>
-													Best for grass, light brush, and shrubs.  Reversible for longer life.
-												</p>
-											</div>
-											<div class="goods-category__part">Part #80728</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image2.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												10-inch, 3-tooth Steel Blade
-											</div>
-											<div class="goods-category__item-desc">
-												<p>
-													Knockout lets blades fit 20 mm or 1 inch arbors.
-												</p>
-												<p>
-													Fits C242, C254, C282 and C344.
-												</p>
-											</div>
-											<div class="goods-category__part">Part# 80771</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image3.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Heavy-Duty Blade
-											</div>
-											<div class="goods-category__item-desc">
-												<p>
-													Tough steel blade is designed for use on larger brushcutters.
-												</p>
-												<p>
-													8" diameter fits C242, C254, C282 and C344.
-												</p>
-											</div>
-											<div class="goods-category__part">Part# 80570</div>
-										</div>
-									</div>
+									<table class="accessories-table">
+									  <thead>
+										  <tr>
+										    <th class="part-number-accessory">PART NUMBER</th>
+										    <th class="image-accessory">IMAGE</th>
+										    <th class="description-accessory">DESCRIPTION</th>
+										    <th class="model-accessory">MODEL NUMBER</th>
+										  </tr>
+									  </thead>
+										<tbody>
+										  <tr>
+										    <td class="number-accessory">80728</td>
+										    <td class="image-1-category"><img src="/images/temp/accessories_image1.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														9-inch, 4 tooth Steel Blade
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Knockout lets blades fit 20 mm or 1 inch arbors.  Fits all blade-capable Shindaiwa straight shaft units.
+														</p>
+														<p>
+															Best for grass, light brush, and shrubs.  Reversible for longer life.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All Brushcutters</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">80771</td>
+										    <td class="image-2-category"><img src="/images/temp/accessories_image2.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														10-inch, 3-tooth Steel Blade
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Knockout lets blades fit 20 mm or 1 inch arbors.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">C242, C254, C282 and C344</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">80570</td>
+										    <td class="image-3-category"><img src="/images/temp/accessories_image3.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														Heavy-Duty Blade
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Tough steel blade is designed for use on larger brushcutters.
+														</p>
+														<p>
+															8" diameter.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">C242, C254, C282 and C344</td>
+										  </tr>
+									  </tbody>
+									</table>
 								</div>
 							</div>
 
 							<div class="goods-category">
-								<div class="goods-category__title active text-uppercase">
+								<div class="goods-category__title text-uppercase">
 									brushcutter accessories
 									<span class="icon-toggle visble-xs"></span>
 								</div>
-								<div class="goods-category__items">
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image4.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Brushcutter Debris Shield (with hardware)
-											</div>
-											<div class="goods-category__item-desc">
-												<p>
-													Debris shields are necessary on all Shindaiwa brushcutters.
-													Kit for converting all Shindaiwa brushcutters with early-style
-													debris shield assembly to the new style.  (Kit does not include
-													blade).
-												</p>
-												<p>
-													Kit includes:<br/>
-													Brushcutter Debris Shield Assembly and Mounting Hardware<br/>
-													Caution Label<br/>
-													Assembly Instructions
-												</p>
-											</div>
-											<div class="goods-category__part">
-												Part# 80562 to upgrade C230, C242, C260, C270, C2510, C3410, and BP35.
-											</div>
-											<div class="goods-category__part">
-												Part# 80563 to upgrade C35, C350, B45, and B450.
-											</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image5.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Brushcutter Pro Harness
-											</div>
-											<div class="goods-category__item-desc">
-												<p>
-													Eases long periods of use by distributing weight evenly across the
-													body.  Wide hip and shoulder pads improve comfort while reducing
-													fatigue.  Reduces risk of contacting machine-cutting area during
-													operation.
-												</p>
-											</div>
-											<div class="goods-category__part">Part# C062000430</div>
-										</div>
-									</div>
-
+								<div class="goods-category__items active">
+									<table class="accessories-table">
+									  <thead>
+										  <tr>
+										    <th class="part-number-accessory">PART NUMBER</th>
+										    <th class="image-accessory">IMAGE</th>
+										    <th class="description-accessory">DESCRIPTION</th>
+										    <th class="model-accessory">MODEL NUMBER</th>
+										  </tr>
+									  </thead>
+									  <tbody>
+										  <tr>
+										    <td class="number-accessory">80562</td>
+										    <td class="image-1-category"><img src="/images/temp/accessories_image4.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														Brushcutter Debris Shield (with hardware)
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Debris shields are necessary on all Shindaiwa brushcutters.
+															Kit for converting all Shindaiwa brushcutters with early-style
+															debris shield assembly to the new style.  (Kit does not include
+															blade).
+														</p>
+														<p>
+															Kit includes:<br/>
+															Brushcutter Debris Shield Assembly and Mounting Hardware<br/>
+															Caution Label<br/>
+															Assembly Instructions
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">Part# 80562 to upgrade C230, C242, C260, C270, C2510, C3410, and BP35.</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">80563</td>
+										    <td class="image-2-category"><img src="/images/temp/accessories_image4.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														Brushcutter Debris Shield (with hardware)
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Debris shields are necessary on all Shindaiwa brushcutters.
+															Kit for converting all Shindaiwa brushcutters with early-style
+															debris shield assembly to the new style.  (Kit does not include
+															blade).
+														</p>
+														<p>
+															Kit includes:<br/>
+															Brushcutter Debris Shield Assembly and Mounting Hardware<br/>
+															Caution Label<br/>
+															Assembly Instructions
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">C35, C350, B45, and B450</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">C062000430</td>
+										    <td class="image-3-category"><img src="/images/temp/accessories_image5.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														BRUSHCUTTER PRE HARNESS
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Eases long periods of use by distributing weight evenly across the body.  Wide hip and shoulder pads improve comfort while reducing fatigue.  Reduces risk of contacting machine-cutting area during operation.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All Brushcutters</td>
+										  </tr>
+									  </tbody>
+									</table>
 								</div>
 							</div>
 
+
+
+
+
+
+
+
+
 							<div class="goods-category">
-								<div class="goods-category__title active text-uppercase">
+								<div class="goods-category__title text-uppercase">
 									safety gear
 									<span class="icon-toggle visble-xs"></span>
 								</div>
-								<div class="goods-category__items">
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image6.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Safety Helmet SET
-												x
-											</div>
-											<div class="goods-category__item-desc">
-												Designed specifically for the commercial end-user. Durable nylon
-												six-point fabric head harness helmet, wire mesh face protector,
-												and ear muffs.
-											</div>
-											<div class="goods-category__part">
-												Part # 82002
-											</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image7.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Face Protector
-											</div>
-											<div class="goods-category__item-desc">
-												Designed specifically for the commercial end-user.&nbsp; Durable nylon
-												visor, wire mesh face protector, and ear muffs.
-											</div>
-											<div class="goods-category__part">
-												Part # 82003
-											</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image8.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Pigskin Gloves
-											</div>
-											<div class="goods-category__item-desc">
-												Unlined Driver's Glovers made of 100% premium-grain pigskin leather.  Features keystone thumb.  Tough yet supple.
-											</div>
-											<div class="goods-category__part">
-												Part # 80406
-											</div>
-										</div>
-									</div>
-
-									<div class="goods-category__item clearfix">
-										<div class="goods-category__img-wrap text-center">
-											<img src="/images/temp/accessories_image9.png" title="" alt="">
-											<a href="#" class="goods-category__enlarge">enlarge +</a>
-										</div>
-										<div class="goods-category__text">
-											<div class="goods-category__item-title text-uppercase">
-												Gray Lens Safety Glasses
-											</div>
-											<div class="goods-category__item-desc">
-												Tough impact and abrasion-resistant gray tinted lenses.
-											</div>
-											<div class="goods-category__part">
-												Part # 80765
-											</div>
-										</div>
-									</div>
-
-
-
+								<div class="goods-category__items active">
+									<table class="accessories-table">
+									  <thead>
+										  <tr>
+										    <th class="part-number-accessory">PART NUMBER</th>
+										    <th class="image-accessory">IMAGE</th>
+										    <th class="description-accessory">DESCRIPTION</th>
+										    <th class="model-accessory">MODEL NUMBER</th>
+										  </tr>
+									  </thead>
+									  <tbody>
+										  <tr>
+										    <td class="number-accessory">82002</td>
+										    <td class="image-1-category"><img src="/images/temp/accessories_image6.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														safety helmet set x
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Designed specifically for the commercial end-user. Durable nylon
+															six-point fabric head harness helmet, wire mesh face protector,
+															and ear muffs.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">82003</td>
+										    <td class="image-2-category"><img src="/images/temp/accessories_image7.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														face protector
+													</div>
+													<div class="goods-category__item-desc">
+														Designed specifically for the commercial end-user.&nbsp; Durable nylon
+														visor, wire mesh face protector, and ear muffs.
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">80406</td>
+										    <td class="image-3-category"><img src="/images/temp/accessories_image8.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														pigskin gloves
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Unlined Driver's Glovers made of 100% premium-grain pigskin leather.  Features keystone thumb.  Tough yet supple.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All</td>
+										  </tr>
+										  <tr>
+										    <td class="number-accessory">80765</td>
+										    <td class="image-4-category"><img src="/images/temp/accessories_image9.png" title="" alt=""></td>
+										    <td>
+									    		<div class="goods-category__text">
+													<div class="goods-category__item-title text-uppercase">
+														grey lens safety glasses
+													</div>
+													<div class="goods-category__item-desc">
+														<p>
+															Tough impact and abrasion-resistant gray tinted lenses.
+														</p>
+													</div>
+												</div>
+										    </td>
+										    <td class="model-number-number">All</td>
+										  </tr>
+									  </tbody>
+									</table>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
