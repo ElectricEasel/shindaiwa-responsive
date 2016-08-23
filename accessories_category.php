@@ -99,6 +99,16 @@
 								to your Shindaiwa product. Simply select from the following categories to see
 								descriptions, part numbers, and corresponding model numbers.
 							</div>
+							<div class="dropdown">
+							  <button class="dropbtn"></button>
+							  <div class="dropdown-content">
+							    <a href="#">Model 1</a>
+							    <a href="#">Model 2</a>
+							    <a href="#">Model 3</a>
+							    <a href="#">Model 4</a>
+							    <a href="#">Model 5</a>
+							  </div>
+							</div>
 							<div class="goods-category">
 								<div class="goods-category__title text-uppercase">
 									brushcutter blades
