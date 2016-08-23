@@ -10,10 +10,25 @@
 
 	<?php include 'header.php' ?>
 	<div class="body">
-		<div class="banner-above">
-			<img src="/images/temp/main-banner.jpg" class="main-banner">
-			<img src="/images/temp/main-banner-description.png" class="main-banner-description">
-			<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+		<div class="banner-above carousel slide" id="home-carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+				<div class="item">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+				<div class="item">
+					<img src="/images/temp/main-banner.jpg" class="main-banner">
+					<img src="/images/temp/main-mobile-bg.jpg" class="main-banner-mobile">
+				</div>
+			</div>
+			<div class="controls">
+				<a class="left carousel-control" href="#home-carousel" data-slide="prev"><i></i></a>
+				<a class="right carousel-control" href="#home-carousel" data-slide="next"><i></i></a>
+			</div>
 		</div>
 
 		<div id="content-container">
@@ -134,11 +149,38 @@
 					</div>
 				</div>
 
+				<div class="affiliates-bar">
+					<div class="container">
+						<div class="shindaiwa__title">
+							Proud Affiliates Of:
+						</div>
+						<a href="/affiliates.php" class="viewall hide-small">View All</a>
+						<ul>
+							<li class="nhla"><img src="images/temp/affil-nhla.png" alt="NHLA"></li>
+							<li class="nalp"><img src="images/temp/affil-nalp.png" alt="NALP"></li>
+							<li class="acf"><img src="images/temp/affil-acf.png" alt="ACF"></li>
+							<li class="tcia"><img src="images/temp/affil-tcia.png" alt="TCIA"></li>
+							<li class="isa"><img src="images/temp/affil-isa.png" alt="ISA"></li>
+							<li class="eda"><img src="images/temp/affil-eda.png" alt="EDA"></li>
+							<li class="opei"><img src="images/temp/affil-opei.png" alt="OPEI"></li>
+							<li class="pgms"><img src="images/temp/affil-pgms.png" alt="pgms"></li>
+						</ul>
+						<a href="/affiliates.php" class="viewall hide-desktop">View All</a>
+					</div>
+				</div>
+
 			</main>
 		</div>
 
 	</div>
 	<?php include 'footer.php' ?>
 </div>
+<script src="/js/jquery.bcSwipe.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$('#home-carousel').carousel({ interval: 5000 });
+		$('#home-carousel').bcSwipe({ threshold: 50 });
+	})
+</script>
 </body>
 </html>
