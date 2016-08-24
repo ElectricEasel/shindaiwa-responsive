@@ -13772,9 +13772,6 @@ td.model-number-number {
 .dropbtn:hover {
   background-image: url(/images/select-model-hover.png);
 }
-.dropbtn:after {
-  background-image: url(/images/select-model-hover.png);
-}
 .dropdown {
   position: relative;
   display: inline-block;
