@@ -74,12 +74,12 @@
 
 
 		$(document).click(function(){
-		  $(".dropdown-content").hide();
+		  $(".dropdown").hide();
 		});
 
 		/* Clicks within the dropdown won't make
 		   it past the dropdown itself */
-		$(".dropdown-content").click(function(e){
+		$(".dropdown").click(function(e){
 		  e.stopPropagation();
 		});
 		//$(".header").sticky({topSpacing:0});
