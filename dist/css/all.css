@@ -10569,11 +10569,11 @@ img.main-banner-mobile {
 }
 .goods-category td img {
   position: relative;
-  left: 95px;
+  left: 73px;
 }
 @media (max-width: 1399px) {
   .goods-category td img {
-    left: 66px;
+    left: 50px;
   }
 }
 @media (max-width: 1199px) {
@@ -10652,7 +10652,7 @@ img.main-banner-mobile {
   margin: 0 0 16px;
 }
 .goods-category p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 21px;
   margin: 0 0 5px;
 }
@@ -13747,6 +13747,7 @@ td.model-number-number {
   margin-left: -79px;
   margin-top: -16px;
   width: 147px;
+  font-size: 16px;
 }
 @media (max-width: 1199px) {
   td.model-number-number {
@@ -13801,5 +13802,8 @@ td.model-number-number {
   background-color: #fff;
 }
 .goods-category__item-title.text-uppercase {
-  max-width: 212px;
+  max-width: 255px;
+}
+td.number-accessory {
+  font-size: 16px;
 }
