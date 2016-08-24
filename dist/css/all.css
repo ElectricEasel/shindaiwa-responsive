@@ -13674,7 +13674,7 @@ p.italic-style {
     content: "MODEL NUMBER" !important;
     display: block;
     color: #000;
-    margin-bottom: 1em;
+    margin-bottom: .3em;
   }
 }
 .part-number-accessory {
@@ -13733,9 +13733,13 @@ p.italic-style {
 .image-2-category {
   position: relative;
 }
+.goods-category.one .image-3-category {
+  position: relative;
+  left: 9px !important;
+}
 .image-3-category {
   position: relative;
-  left: 9px;
+  left: 0px !important;
 }
 td.model-number-number {
   font-weight: 900;
@@ -13798,4 +13802,7 @@ td.model-number-number {
 }
 .dropdown:hover .dropbtn {
   background-color: #fff;
+}
+.goods-category__item-title.text-uppercase {
+  max-width: 212px;
 }

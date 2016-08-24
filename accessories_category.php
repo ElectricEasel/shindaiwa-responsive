@@ -109,7 +109,7 @@
 							    <a href="#">Model 5</a>
 							  </div>
 							</div>
-							<div class="goods-category">
+							<div class="goods-category one">
 								<div class="goods-category__title text-uppercase">
 									brushcutter blades
 									<span class="icon-toggle visble-xs"></span>
