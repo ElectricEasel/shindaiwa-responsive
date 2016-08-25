@@ -11514,6 +11514,14 @@ img.main-banner-mobile {
     max-width: 100%;
   }
 }
+@media (min-width: 768px) {
+  #model-select-styler {
+    max-width: 300px;
+  }
+}
+#model-select-styler .jq-selectbox__select-text {
+  width: auto !important;
+}
 .accessories-table tbody tr {
   background: #f6f6f6;
   font-family: 'HCondensed', sans-serif;
