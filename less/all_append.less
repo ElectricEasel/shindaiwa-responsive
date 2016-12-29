@@ -3,7 +3,6 @@
 @import "variables";
 @import "fonts";
 */
-
 .antialiased() {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -827,5 +826,416 @@
         strong {
             .hCondensedHeavy;
         }
+    }
+}
+.fleetweek-banner {
+    background: url(/images/temp/fleetweek-banner.jpg) 0 0 no-repeat;
+    background-size: cover;
+    height: 509px;
+    overflow: hidden;
+    border-bottom: 6px solid @red !important;
+    .content-block {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+    }
+    &__text {
+        position: absolute;
+        top: 60px;
+        left: 44%;
+    }
+    &__suptitle {
+        .hCondensedHeavy;
+        font-size: 36px;
+        line-height: 36px;
+        color: @white;
+        .antialiased;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.9);
+    }
+    &__title {
+        .hBlackExtra;
+        font-size: 106px;
+        line-height: 86px;
+        color: @red;
+        .antialiased;
+        font-style: italic;
+        margin-bottom: 6px;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.9);
+        margin-left: 30px;
+        span {
+            display: block;
+            font-size: 93px;
+            line-height: 86px;
+            margin-left: 40px;
+        }
+    }
+    &__subtitle {
+        .hBlackOblique;
+        font-size: 24px;
+        line-height: 24px;
+        color: @white;
+        .antialiased;
+        font-style: italic;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.9);
+        margin-left: 70px;
+    }
+    &__arrow {
+        position: absolute;
+        right: 0;
+        bottom: 60px;
+        .impact;
+        color: @white;
+        .antialiased;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.9);
+        font-size: 52px;
+        line-height: 100px;
+        height: 100px;
+        width: 782px;
+        background: url(/images/temp/fleetweek-arrow.png) 0 0 no-repeat;
+        background-size: 100% 100%;
+        padding-left: 62px;
+    }
+    &__badge {
+        position: absolute;
+        top: 0;
+        right: 55%;
+    }
+    @media (min-width: @screen-sm-min) {
+        background-position: center 0;
+    }
+    @media (max-width:@screen-md-max) {
+        height: 370px;
+        &__text {
+            top: 45px;
+        }
+        &__suptitle {
+            font-size: 26px;
+            line-height: 26px;
+        }
+        &__title {
+            font-size: 75px;
+            line-height: 65px;
+            span {
+                font-size: 65px;
+                line-height: 55px;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__arrow {
+            bottom: 50px;
+            font-size: 35px;
+            line-height: 65px;
+            height: 65px;
+            width: 56%;
+            padding-left: 5%;
+        }
+        &__badge {
+            img {
+                width: 300px;
+            }
+        }
+    }
+    @media (max-width:900px) {
+        &__text {
+            left: 34%;
+        }
+        &__arrow {
+            width: 65%;
+        }
+        &__badge {
+            right: 64%;
+        }
+    }
+    @media (max-width:@screen-tb-max) {
+        height: 496px;
+        &__text {
+            position: static;
+            padding: 0 15px;
+            text-align: center;
+        }
+        &__suptitle {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__title {
+            margin: 0 0 3px;
+            font-size: 58px;
+            line-height: 46px;
+            span {
+                margin: 0;
+                font-size: 51px;
+                line-height: 48px;
+            }
+        }
+        &__subtitle {
+            margin: 0;
+            font-size: 17px;
+            line-height: 24px;
+        }
+        &__arrow {
+            bottom: 20px;
+            font-size: 24px;
+            line-height: 48px;
+            height: 48px;
+            width: 80%;
+            min-width: 370px;
+            padding-left: 7%;
+        }
+        &__badge {
+            position: static;
+            text-align: center;
+            text-align: center;
+            img {
+                margin: -0.5% auto;
+                width: 280px;
+            }
+        }
+    }
+    @media (max-width: 480px) {
+        background-image: url(/images/temp/fleetweek-banner-mobile.jpg);
+    }
+    @media (max-width:380px) {
+        &__title {
+            font-size: 48px;
+            line-height: 40px;
+            span {
+                font-size: 43px;
+                line-height: 41px;
+            }
+        }
+        &__arrow {
+            width: 90%;
+            min-width: 0;
+        }
+    }
+}
+.fleetweek-content {
+    padding: 30px 0 15px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e3e3e3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#e3e3e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+    .table-wrap {
+        width: 854px;
+        max-width: 100%;
+        margin: 0 auto;
+        &:before {
+            content: "";
+            display: block;
+            height: 18px;
+            width: 100%;
+            background: url(/images/temp/fleetweek-table-top.png) 0 0 no-repeat;
+            background-size: 100% 100%;
+        }
+        &:after {
+            content: "";
+            display: block;
+            height: 18px;
+            width: 100%;
+            background: url(/images/temp/fleetweek-table-bottom.png) 0 0 no-repeat;
+            background-size: 100% 100%;
+        }
+        table {
+            width: 100%;
+            tr {
+                width: 100%;
+                td, th {
+                    width: 25%;
+                    text-align: center;
+                }
+                td + td, th + th {
+                    text-align: left;
+                }
+                td + td + td, th + th + th {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+            thead {
+                tr {
+                    background: @black;
+                    th {
+                        height: 40px;
+                        color: @white;
+                        .antialiased;
+                        font-size: 15px;
+                        line-height: 15px;
+                        padding: 8px 0 17px;
+                        text-transform: uppercase;
+                    }
+                }
+                tr:first-child {
+                    height: 118px;
+                    background: url(/images/temp/fleetweek-table-head.jpg) 0 0 no-repeat;
+                    background-size: 100% 100%;
+                    th {
+                        text-align: center;
+                        .hCondensedHeavy;
+                        color: @black;
+                        font-size: 55px;
+                        line-height: 55px;
+                        height: 118px;
+                        padding: 18px 0 45px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            tbody {
+                &.odd {
+                    tr {
+                        background: @white;
+                        &:nth-child(odd) {
+                            background: #eee;
+                        }
+                    }
+                }
+                &.even {
+                    tr {
+                        background: #eee;
+                        &:nth-child(odd) {
+                            background: @white;
+                        }
+                    }
+                }
+                tr {
+                    td {
+                        color: @black;
+                        font-size: 15px;
+                        font-weight: normal;
+                        line-height: 50px;
+                        span {
+                            display: block;
+                            color: @black;
+                        }
+                    }
+                    td + td {
+                        color: @red;
+                        font-weight: bold;
+                        line-height: 24px;
+                        span {
+                            font-weight: normal;
+                        }
+                    }
+                    td + td + td {
+                        color: @black;
+                        font-weight: normal;
+                    }
+                    td + td + td, td:last-child {
+                        position: relative;
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            width: 9px;
+                            height: 100%;
+                            background: rgba(0,0,0,.18);
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width:@screen-sm-max) {
+            padding: 0 25px;
+            table {
+                tr {
+                    td, th {
+                        width: 22%;
+                    }
+                    td + td, th + th {
+                        width: 45%;
+                        padding-left: 30px
+                    }
+                    td + td + td, th + th + th {
+                        width: 33%;
+                        padding-left: 0;
+                    }
+                }
+                thead {
+                    tr:first-child {
+                        th {
+                            font-size: 50px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td + td + td, td:last-child {
+                            &:after {
+                                width: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width:@screen-tb-max) {
+            width: 321px;
+            padding: 0;
+            &:before {
+                background-image: url(/images/temp/fleetweek-table-top-mobile.png);
+            }
+            &:after {
+                background-image: url(/images/temp/fleetweek-table-bottom-mobile.png);
+            }
+            table {
+                tr {
+                    td, th {
+                        width: 27%;
+                    }
+                    td + td, th + th {
+                        width: 73%;
+                        padding-left: 10px !important;
+                    }
+                }
+                thead {
+                    tr {
+                        th {
+                            padding: 10px 0 15px;
+                        }
+                    }
+                    tr:first-child {
+                        height: 109px;
+                        background-image: url(/images/temp/fleetweek-table-head-mobile.jpg);
+                        th {
+                            font-size: 41px;
+                            line-height: 41px;
+                            height: 109px;
+                            padding: 5px 0 22px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            line-height: 26px;
+                            padding: 10px 0;
+                            vertical-align: top;
+                        }
+                        td:last-child:after {
+                            width: 9px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+    .fleetweek-equipment {
+        margin: 0 auto 20px;
+        display: block;
+        @media (max-width:@screen-tb-max) {
+            margin-top: 25px;
+        }
+    }
+    .disclaimer {
+        font-style: italic;
+        font-size: 16px;
+        max-width: 860px;
+        margin: 0 auto;
+        text-align: center;
     }
 }
